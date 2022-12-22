@@ -85,7 +85,7 @@ h2{
   /* border: 1px solid green; */
   border-radius: 50%;
   background-color: #fca311;
-  
+
 }
 button {
   /* Variables */
@@ -98,7 +98,7 @@ button {
  border-radius: var(--button_radius);
  background: var(--button_outline_color);
  padding: 0;
- margin: 25px;
+ margin: 50px 0 50px 0;
 }
 
 .button_top {
