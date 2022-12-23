@@ -80,8 +80,8 @@ h2{
 }
 .other-links svg {
   color: #2b2926;
-  margin: 5;
-  padding: 10px;
+  margin: 2;
+  padding: 5px;
   /* border: 1px solid green; */
   border-radius: 50%;
   background-color: #fca311;
@@ -155,10 +155,15 @@ button:active .button_top {
   .Sub_containerC {
     width: 100%;
   }
+  img {
+    width: 180px;
+    height: 18hv;
+  }
   h2 {
     width: 100%;
     max-width: 100%;
   }
+
 }
 @media (max-width: 300px) {
   .Sub_containerA{
