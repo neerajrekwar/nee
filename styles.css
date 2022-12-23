@@ -65,10 +65,10 @@ h2{
   justify-items: center;
   align-content: center;
   font-size: 0.9em;
-  color: #353535;
+  color: #000000;
   font-weight: 300;
-  width: 80%;
-  max-width: 50%;
+  width: 100%;
+  max-width: 80%;
   text-align: center;
 }
 .other-links{
@@ -80,8 +80,8 @@ h2{
 }
 .other-links svg {
   color: #2b2926;
-  margin: 0;
-  padding: 5px;
+  margin: 5;
+  padding: 10px;
   /* border: 1px solid green; */
   border-radius: 50%;
   background-color: #fca311;
@@ -156,8 +156,8 @@ button:active .button_top {
     width: 100%;
   }
   h2 {
-    width: 80%;
-    max-width: 700%;
+    width: 100%;
+    max-width: 100%;
   }
 }
 @media (max-width: 300px) {
