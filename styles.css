@@ -62,7 +62,7 @@ h1 {
 } 
 h2{
   margin-bottom: 25px;
-  display: flex;
+  display: grid;
   justify-items: center;
   align-content: space-between;
   font-size: 0.9em;
@@ -130,6 +130,11 @@ button:active .button_top {
   height: 200px;
   background: #cac4b7;
   
+}
+.b_imagebox img {
+  border: 1px solid green;
+   height: 150px;
+   width: auto;
 }
 .Sub_containerC{
   margin: 0; 
