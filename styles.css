@@ -132,11 +132,21 @@ button:active .button_top {
   background: #cac4b7;
   
 }
+.t_container {
+  background-color: #a08c6e;
+  border: 2 solid orange;
+  margin: 20px;
+}
+b_imagebox
 .b_imagebox img {
   border: 1px solid green;
    height: 150px;
    width: auto;
 }
+.c__separator {}
+.U__uptitle .t-uptitle {}
+.t404__tag {}
+.t404__date {}
 .Sub_containerC{
   margin: 0; 
   text-align: center;
@@ -160,7 +170,12 @@ p {
   font-size: 12px;
   opacity: .6;
 }
-/* Here are Starting Media Query */
+/* ---------------------Here are Starting Media Query---------------------------- */
+
+@media (max-width: 768px) {
+  body {}
+}
+
 @media (max-width: 500px) {
   .Sub_containerA,
   .Sub_containerB,
