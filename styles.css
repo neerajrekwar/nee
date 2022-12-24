@@ -125,7 +125,7 @@ button:active .button_top {
  transform: translateY(0);
 }
 .Sub_containerB{
-  position: fixed;
+  /* position: fixed; */
   margin: 0;
   padding: 10px;
   text-align: center;
@@ -140,8 +140,7 @@ button:active .button_top {
 }
 .t_container {
   background-color: #a08c6e;
-  border: 2px solid orange;
-  margin: 20px;
+
 }
 .b_imagebox {
   border: 2px solid greenyellow;
