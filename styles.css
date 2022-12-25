@@ -68,7 +68,7 @@ h2{
   align-content: space-between;
   font-size: 0.9em;
   color: #000000;
-  /* font-weight: 300; */
+  font-weight: 300;
   width: 80%;
   max-width: 50%;
   text-align: center;
@@ -126,43 +126,16 @@ button:active .button_top {
 }
 .Sub_containerB{
   /* position: fixed; */
-  margin: 0;
-  padding: 10px;
   text-align: center;
   width: 100%;
   height: 300px;
   background: #cac4b7;
-  border: 2px solid orange;
   display: flex;
   flex-direction: column;
 
   
 }
-.t_container {
-  background-color: #a08c6e;
 
-}
-.b_imagebox {
-  border: 2px solid greenyellow;
-}
-.b_imagebox img {
-  border: 1px solid green;
-   height: 150px;
-   width: auto;
-}
-.c__separator {
-  text-decoration-line: none;
-  border: 2px solid greenyellow;
-}
-.U__uptitle .t-uptitle {
-  text-decoration-line: none;
-}
-.t404__tag {
-  text-decoration-line: none;
-}
-.t404__date {
-  text-decoration-line: none;
-}
 .Sub_containerC{
   margin: 0; 
   text-align: center;
