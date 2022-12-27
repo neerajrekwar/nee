@@ -38,6 +38,8 @@ body {
   width: 150px;
   height: 150px; 
   max-width: 150px;
+  image-resolution: 300dpi snap;
+  ime-mode: active;
 }
 .pro{
   margin: 0 auto;
@@ -54,12 +56,13 @@ body {
   padding-bottom: 20px;
 }
 h1 {
-  font-weight: 600;
+  font-weight: bold;
   margin-top: 30px;
   margin-bottom: 30px;
-  font-size: 2.0em;
+  font-size: 2.5em;
   text-align: center;
-  color: #000000;
+  color: #353535;
+  /* opacity: .9; */
 } 
 h2{
   margin-bottom: 25px;
@@ -88,7 +91,7 @@ h2{
   padding: 5px;
   /* border: 1px solid green; */
   border-radius: 50%;
-  background-color: #fca311;
+  background-color: #fce41167;
 
 }
 button {
