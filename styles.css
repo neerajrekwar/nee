@@ -163,6 +163,9 @@ p {
 }
 /* ---------------------Here are Starting Media Query---------------------------- */
 
+@media all and (max-width: 1200px) {
+  
+}
 @media (max-width: 768px) {
   body {}
 }
