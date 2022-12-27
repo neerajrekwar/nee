@@ -71,6 +71,7 @@ h2{
   align-content: space-between;
   font-size: 0.9em;
   color: #353535;
+  opacity: .6;
   font-weight: 1000;
   width: 80%;
   max-width: 50%;
