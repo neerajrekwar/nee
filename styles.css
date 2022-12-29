@@ -89,11 +89,11 @@ h2{
 }
 .other-links svg {
   color: #2b2926;
-  margin: 2;
+  margin: 2px;
   padding: 5px;
-  /* border: 1px solid #; */
+  /* border: 1px solid #000; */
   border-radius: 50%;
-  /* background-color: #fce41167; */
+  background-color: #41a738;
 
 }
 button {
