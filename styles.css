@@ -57,8 +57,8 @@ body {
 }
 h1 {
   font-weight: bold;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 40px;
+  margin-bottom: 40px;
   font-size: 2.5em;
   text-align: center;
   color: #353535;
@@ -91,9 +91,9 @@ h2{
   color: #2b2926;
   margin: 2;
   padding: 5px;
-  /* border: 1px solid green; */
+  /* border: 1px solid #; */
   border-radius: 50%;
-  background-color: #fce41167;
+  /* background-color: #fce41167; */
 
 }
 button {
