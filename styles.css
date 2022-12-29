@@ -73,11 +73,12 @@ h2{
   color: #353535;
   opacity: .6;
   font-weight: 1000;
-  width: 80%;
+  width: 100%;
   max-width: 50%;
-  text-align: left;
+  text-align: center;
   letter-spacing: 3px;
   line-height: 30px;
+  background: #27836c;
 }
 .other-links{
   margin: 0px;
@@ -186,9 +187,8 @@ p {
     height: 18hv;
   }
   h2 {
-    font-size: 1.rem;
-    width: 80%;
-    max-width: 80%;
+    width: 100%;
+    max-width: 90%;
     line-height: 20px;
   }
 
