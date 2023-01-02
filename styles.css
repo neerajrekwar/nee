@@ -155,7 +155,11 @@ body, main {
   /* border: 2px solid #125472; */
 }
 #full-size-h {
-  text-align: center;
+  text-align: left;
+  margin-left: 5px;
+  font-size: 10px;
+  font-weight: 600;
+  font-style: italic;
 }
 .container {
   /* border: 2px solid #125472; */
