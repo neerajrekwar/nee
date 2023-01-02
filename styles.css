@@ -18,7 +18,7 @@ body {
   font-style: italic;
 }
 
-.container {
+.containerr {
   height: 350px;
   margin: 0 auto;
   /* background: #06d6a0; */
@@ -76,7 +76,7 @@ h2{
   opacity: .6;
   font-weight: 1000;
   width: 100%;
-  max-width: 50%;
+  max-width: 70%;
   text-align: center;
   letter-spacing: 3px;
   line-height: 30px;
@@ -171,6 +171,25 @@ p {
 }
 /* ---------------------Here are Starting Media Query---------------------------- */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media all and (max-width: 1200px) {
   
 }
@@ -190,7 +209,7 @@ p {
   }
   h2 {
     width: 100%;
-    max-width: 90%;
+    max-width: 80%;
     line-height: 20px;
   }
 
