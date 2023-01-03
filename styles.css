@@ -123,9 +123,6 @@ button:active .button_top {
 }
 .Sub_containerB{
 }
-.mid_container {
-  width: 80%;
-}
 
 .Sub_containerC{
   margin: 0; 
@@ -171,14 +168,14 @@ body, main {
 
 }
 .mid_container{
-  display: flex;
   margin: 0 auto;
   /* border: 1px solid tomato; */
-  width: 80%;
+  width: 90%;
 }
 .post_container{
+  display: flex;
   text-align: left;
-  margin: 0 auto;
+  margin: 10px;
   /* display: inline; */
   
 }
@@ -205,6 +202,7 @@ img {
   height: auto;
 }
 @media all and (max-width: 1200px) {
+  .[]
   .mid_container {
     /* background-color: #125472; */
     width: 80%;
@@ -226,17 +224,12 @@ img {
 }
 
 
-@media screen and (max-width: 960px) {
-    body { /* background-color: aliceblue; */ }
-    
-    .mid_container {
-      /* background-color: #125472; */
+@media screen and (max-width: 960px) {   
+    /* .mid_container {
       width: 90%;
     }
-   .post_container{ 
-     display: table; 
-     /* justify-content: center; */
-     /* align-items: center; */ 
+   .post_container{
+     display: table;
      margin: 0 auto; 
     } 
     .post{ 
@@ -247,9 +240,31 @@ img {
     } 
     .tab { 
       margin: 20 20 20 20; 
-    } 
+    }  */
+    .mid_container {
+      /* background-color: #125472; */
+      width: 90%;
+      display: inline;
+    }
+    .post_container{    
+      display: table;
+      margin: 20px;
+  
+     } 
+     .post{
+       margin: 10px; 
+     } 
+     .post__link { 
+       display: flex;
+     } 
+     .tab { 
+       margin:  20px 20px 20px 20px; 
+     } 
 }
 @media (max-width: 612px) {
+    .mid_container{
+
+    }
    .post_container{ 
     margin: 10px; 
    } 
