@@ -135,7 +135,7 @@ button:active .button_top {
   visibility: visible;
   position: relative;
   width: 100%;
-  height: 100px;
+  height: 344px;
   pointer-events: all;
   opacity: 1;
   z-index: 1 !important;
