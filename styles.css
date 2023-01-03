@@ -202,11 +202,9 @@ img {
   height: auto;
 }
 @media all and (max-width: 1200px) {
-  .[]
   .mid_container {
     /* background-color: #125472; */
     width: 80%;
-    display: inline;
   }
   .post_container{    
     display: inline;
