@@ -123,6 +123,9 @@ button:active .button_top {
 }
 .Sub_containerB{
 }
+.mid_container {
+  width: 80%;
+}
 
 .Sub_containerC{
   margin: 0; 
@@ -171,7 +174,7 @@ body, main {
   display: flex;
   margin: 0 auto;
   /* border: 1px solid tomato; */
-  width: 90%;
+  width: 80%;
 }
 .post_container{
   text-align: left;
