@@ -11,6 +11,9 @@
   margin: 0 auto;
   /* background: #06d6a0; */
 }
+iframe {
+  width: 100%;
+}
 
 .Sub_containerA{
   margin: 0 auto; 
