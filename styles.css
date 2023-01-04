@@ -127,7 +127,6 @@ button:active .button_top {
   color: #41a738;
 }
 .Sub_containerB{
-  
 }
 .Sub_containerC{
   margin: 0; 
@@ -142,6 +141,60 @@ button:active .button_top {
   opacity: 1;
   z-index: 1 !important;
 }
+/* .subs_btn{
+  background-color: rgb(138, 133, 133);
+  border: 2px solid saddlebrown;
+}
+form {
+  border: 2px solid saddlebrown;
+}
+input{
+  border: none;
+  width: 0 auto;
+  height: 35px;
+}
+.Subscribe_input{
+  display: block;
+}
+.Subscribe_input{} */
+
+.input-group {
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  min-height: 50px;
+  max-width: 150px;
+  padding: 0 1rem;
+  color: #353535;
+  font-size: 15px;
+  border: 1px solid #5e4dcd;
+  border-radius: 6px 0 0 6px;
+  background-color: transparent;
+}
+
+.button--submit {
+  min-height: 50px;
+  padding: .5em 1em;
+  border: none;
+  border-radius: 0 6px 6px 0;
+  background-color: #5e4dcd;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color .3s ease-in-out;
+}
+
+.button--submit:hover {
+  background-color: #5e5dcd;
+}
+
+.input:focus, .input:focus-visible {
+  border-color: #3898EC;
+  outline: none;
+}
+
 .mini_image {
   border-radius: 50%;
   margin: 10px;
