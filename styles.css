@@ -182,10 +182,13 @@ body, main {
 }
 .post{
   font-size: 1.5em;
-  /* margin: 0 auto; */
   margin: 15px;
-  /* background-color: blue; */
-  /* border: 1px solid #000; */
+}
+.post:hover {
+  margin: 2px;
+  transition: 0.2s ease-in;
+  background-color: #41a73833;
+  border-radius: 15px;
 }
 figure {
   margin-bottom: 90px;
@@ -194,10 +197,16 @@ figure a {
   text-decoration: none;
   color: #000;
 }
+
 .t404__link  {
   text-decoration: none;
   color: #000;
 }
+.t404__separator {
+  margin-top: 5px;
+  padding-top: 2;
+}
+
 img {
   width: 100%;
   height: auto;
@@ -211,9 +220,10 @@ img {
   .post_container{
     display: flex;
    } 
-   .post{ 
-     margin: 0; 
-   } 
+   .post{
+    font-size: 1.5em;
+    margin: 15px;
+  }
    .post__link { 
      
    } 
