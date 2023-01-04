@@ -60,7 +60,7 @@ h2{
   justify-items: center;
   align-content: space-between;
   font-size: 0.8em;
-  color: #353535;
+  color: #000000;
   opacity: .6;
   font-weight: 600;
   width: 100%;
@@ -168,29 +168,29 @@ body, main {
 
 }
 .mid_container{
-  /* display: flex; */
-  display: flex;
+  display: inline;
   margin: 0 auto;
   /* border: 1px solid tomato; */
   width: 90%;
 }
 .post_container{
+  display: flex;
   text-align: left;
-  margin: 10px;
+  margin: 20px;
   /* display: inline; */
   
 }
 .post{
   font-size: 1.5em;
   /* margin: 0 auto; */
-  margin: 5px;
+  margin: 15px;
   /* background-color: blue; */
   /* border: 1px solid #000; */
 }
-article {
+figure {
   margin-bottom: 90px;
 }
-article a {
+figure a {
   text-decoration: none;
   color: #000;
 }
@@ -206,10 +206,10 @@ img {
   .mid_container {
     /* background-color: #125472; */
     width: 80%;
-    display: flex;
+    display: inline;
   }
   .post_container{
-
+    display: flex;
    } 
    .post{ 
      margin: 0; 
@@ -224,22 +224,6 @@ img {
 
 
 @media all and (max-width: 960px) {   
-    /* .mid_container {
-      width: 90%;
-    }
-   .post_container{
-     display: table;
-     margin: 0 auto; 
-    } 
-    .post{ 
-      margin: 5px; 
-    } 
-    .post__link { 
-      display: flex; 
-    } 
-    .tab { 
-      margin: 20 20 20 20; 
-    }  */
     .mid_container {
       /* background-color: #125472; */
       width: 90%;
