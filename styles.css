@@ -185,9 +185,7 @@ body, main {
   margin: 15px;
 }
 .post:hover {
-  margin: 2px;
   transition: 0.2s ease-in;
-  background-color: #41a73833;
   border-radius: 15px;
 }
 figure {
