@@ -164,6 +164,7 @@ input{
 .input-group {
   display: flex;
   align-items: center;
+  margin: 25px;
 }
 
 .input {
@@ -172,11 +173,13 @@ input{
   padding: 0 1rem;
   color: #353535;
   font-size: 15px;
-  border: 1px solid #5e4dcd;
-  border-radius: 6px 0 0 6px;
-  background-color: transparent;
+  border-bottom: 2px solid #41a738;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: rgba(152, 199, 57, 0.342);
 }
-
+/* 
 .button--submit {
   min-height: 50px;
   padding: .5em 1em;
@@ -196,7 +199,7 @@ input{
 .input:focus, .input:focus-visible {
   border-color: #3898EC;
   outline: none;
-}
+} */
 
 .mini_image {
   border-radius: 50%;
