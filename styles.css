@@ -87,7 +87,7 @@ h2{
   border-radius: 50%;
   background-color: #41a738;
 }
-.button-for {
+button {
   /* Variables */
  --button_radius: 0.75em;
  --button_color: #e8e8e8;
@@ -116,12 +116,12 @@ h2{
   text-decoration: none;
   color: #000;
 }
-.button-for:hover .button_top {
+button:hover .button_top {
   /* Pull the button upwards when hovered */
  transform: translateY(-0.43em);
 }
 
-.button-for:active .button_top {
+button:active .button_top {
   /* Push the button downwards when pressed */
  transform: translateY(0);
 }
@@ -144,6 +144,23 @@ h2{
   opacity: 1;
   z-index: 1 !important;
 }
+/* .subs_btn{
+  background-color: rgb(138, 133, 133);
+  border: 2px solid saddlebrown;
+}
+form {
+  border: 2px solid saddlebrown;
+}
+input{
+  border: none;
+  width: 0 auto;
+  height: 35px;
+}
+.Subscribe_input{
+  display: block;
+}
+.Subscribe_input{} */
+
 .input-group {
   display: flex;
   align-items: center;
@@ -201,7 +218,7 @@ h3 {
   height: 25px;
 }
 p {
-  font-size: 0.8em;
+  font-size: 1.2;
   opacity: .6;
 }
 /* ---------------------Here are Starting Media Query---------------------------- */
