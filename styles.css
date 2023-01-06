@@ -251,8 +251,9 @@ input{
 }
 
 .inp input:focus + .label + .focus-bg {
-  transform: scaleX(1);
-  transition: all 0.1s ease;
+  transform: scaleX(2);
+  transition: all .1s ease;
+  
 }
 .btn {
   font-size: 17px;
