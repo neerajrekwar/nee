@@ -174,7 +174,7 @@ input{
   margin: auto;
   width: 100%;
   max-width: 190px;
-  border-radius: 3px;
+  border-radius: 3px 3px 0px 0px;
   overflow: hidden;
 }
 
@@ -210,7 +210,7 @@ input{
   width: 100%;
   border: 0;
   font-family: inherit;
-  padding: 16px 12px 0 12px;
+  padding: 30px 12px 0 12px;
   height: 56px;
   font-size: 16px;
   font-weight: 400;
@@ -259,12 +259,11 @@ input{
   font-size: 17px;
   background: transparent;
   border: none;
-  /* padding-top: 2em .5em; */
-  padding: 1em 1em;
-  color: #a7f597;
+  padding: 1em 1.5em;
+  color: #eeb668cc;
   text-transform: uppercase;
   position: relative;
-  transition: .9s ease;
+  transition: .5s ease;
 }
 
 .btn::before {
@@ -272,14 +271,14 @@ input{
   position: absolute;
   left: 0;
   bottom: 0;
-  height: 1px;
+  height: 2px;
   width: 0;
-  background-color: #0077FF;
-  transition: 1.5s ease;
+  background-color: #0077ff;
+  transition: .5s ease;
 }
 
 .btn:hover {
-  color: #ffffff;
+  color: #e5e5fa;
   transition-delay: .5s;
 }
 
@@ -294,19 +293,19 @@ input{
   bottom: 0;
   height: 0;
   width: 100%;
-  background-color: #a0c4eea2;
+  background-color: #0077ffa8;
   transition: .4s ease;
   z-index: -1;
 }
 
 .btn:hover::after {
-  height: 200%;
-  transition-delay: 0.2s;
-  color: aliceblue;
+  height: 160%;
+  transition-delay: 0.4s;
+  color: rgb(150, 101, 10);
 }
 h3 {
   font-size: 1.6em;
-  color: #353535;
+  color: #020202a4;
 }
 
 .mini_image {
