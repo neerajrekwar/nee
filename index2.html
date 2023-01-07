@@ -1,12 +1,25 @@
 <head>
   <link rel="stylesheet" href="styles.css" />
   <style>
+     body, main {
+      margin: 0 auto;
+     }
+    .containerr {
+      margin: 0 auto;
+    }
+    .containerr .jdsa {
+      margin: 0px auto;
+      border: 2px solid green;
+    }
+    .jdsa iframe {
+     margin: 0 auto;
+    }
     nav {
       align-items
     }
     ul {
       display: inline-flex;
-      margin: 10px
+      margin: 10px;
     }
     ul a {
       text-decoration: none;
@@ -14,7 +27,7 @@
     }
     li {
       list-style: none;
-      margin: 10px
+      margin: 10px;
     }
     li:hover {
       color: tomato;
@@ -22,43 +35,39 @@
     }
 
     @media all and (max-width: 1200px) {
-      iframe {
-        width: 90%;
-      }
+      
     }
     @media all and (max-width: 960px) {
-      iframe {
-        width: 100%;
-      }
+      
     }
     @media all and (max-width: 500px) {
-      iframe {
-        width: 100%;
-      }
+      
     }
   </style>
 </head>
 <body>
   <header>
-    <nav><ul>
-      <a href=""><li>home</li></a>
-      <a href=""><li>services</li></a>
-      <a href=""><li>about</li></a>
-      <a href=""><li>works</li></a>
-    </ul>
-  </nav>
+    <nav>
+      <ul>
+        <a href=""><li>home</li></a>
+        <a href=""><li>services</li></a>
+        <a href=""><li>about</li></a>
+        <a href=""><li>works</li></a>
+      </ul>
+    </nav>
   </header>
   <main>
     <div class="containerr">
-    <iframe
-  width="560"
-  height="202"
-  src="https://www.bandlab.com/embed/?id=b423097c-5b88-ed11-9d7a-000d3a3eed2a"
-  frameborder="0"
-  allowfullscreen
-></iframe>
-</div>
+      <div class="jdsa">
+        <iframe
+          width="560"
+          height="202"
+          src="https://www.bandlab.com/embed/?id=b423097c-5b88-ed11-9d7a-000d3a3eed2a"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
   </main>
   <footer></footer>
 </body>
-
