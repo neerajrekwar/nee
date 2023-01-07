@@ -225,10 +225,10 @@ body, main {
   /* border: 2px solid #125472; */
   margin: 0 auto;
   width: 100%;
+  color: #646464
 
 }
 .mid_container{
-  display: inline;
   margin: 0 auto;
   /* border: 1px solid tomato; */
   width: 90%;
@@ -237,12 +237,16 @@ body, main {
   display: flex;
   text-align: left;
   margin: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
   /* display: inline; */
   
 }
 .post{
   font-size: 1.5em;
   margin: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 .post:hover {
   transition: 0.2s ease-in;
