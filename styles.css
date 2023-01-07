@@ -149,6 +149,8 @@ button:active .button_top {
   display: flex;
   align-items: center;
   margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
   /* border: 2px solid black; */
   max-width: fit-content;
 }
@@ -161,7 +163,7 @@ button:active .button_top {
   min-height: 50px;
   max-width: 150px;
   padding: 0 1rem;
-  color: #fff;
+  color: #000;
   font-size: 15px;
   border: 1px solid #5e4dcd;
   border-radius: 6px 0 0 6px;
