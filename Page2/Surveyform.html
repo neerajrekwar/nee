@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Survey form-byNR</title>
+    <style>
+      * {
+        margin:0;
+        
+      }
+      body {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin:0 auto;
+        max-width: 444px;
+        border: 2px solid;
+        height: auto;
+        
+      }
+      #title{
+        text-align: center;
+        color: tomato;
+      }
+      #description{
+        text-align: center;
+        margin-left: 5px;
+        font-size: 16px;
+        font-weight: 600;
+        font-style: italic;
+      }
+      #survey-form{
+        margin: 5px;
+        border: 2px solid
+      }
+      .form-group{
+        margin: 5px;
+        /* border: 2px solid green; */
+        padding: 5px;
+      }
+      label{}
+      input{}
+      #name-label{}
+      #email-label{}
+      #number-label{}
+      #name{}
+      #email{}
+      #number{}
+      .form-group{}
+      .dropdown{}
+      select{}
+      option{}
+      h1{}
+      p{}
+      .input-radio{}
+
+    </style>
+  </head>
+  <body>
+    <header><nav></nav></header>
+    <main>
+      <h1 id="title">Hello world</h1>
+      <p id="description">fill your information below the form</p>
+      <form id="survey-form">
+        <div class="form-group">
+          <label id="name-label" for="name">Name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="form-control"
+            placeholder="Enter your name"
+            required=""
+          />
+        </div>
+        <div class="form-group">
+          <label id="email-label" for="name">Your E-mail</label>
+          <input
+            type="email"
+            name="name"
+            id="email"
+            class="form-control"
+            placeholder="Enter your email"
+            required=""
+          />
+        </div>
+        <div class="form-group">
+          <label id="number-label" for="name">Age</label>
+          <input
+            type="number"
+            name="name"
+            id="number"
+            min="6"
+            max="79"
+            class="form-control"
+            placeholder="Enter your age"
+            required=""
+          />
+        </div>
+        <div class="form-group">
+          <p>Which is your favorite street food from the list given below?</p>
+          <select id="dropdown" name="role" class="form-control" required="">
+            <option disabled="" selected="" value="">Street food lists</option>
+            <option value="Vada Pao">Vada Pao</option>
+            <option value="Momos">Momos</option>
+            <option value="Chole Bhature">Chole Bhature</option>
+            <option value="Litti Choka">Litti Choka</option>
+            <option value="preferNo">Prefer not to say</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <p>How many times go out eating street food in a month?</p>
+          <label>
+            <input
+              name="user-recommend"
+              value="definitely"
+              type="radio"
+              class="input-radio"
+              checked=""
+            />Every saturday</label
+          >
+          <label>
+            <input
+              name="user-recommend"
+              value="maybe"
+              type="radio"
+              class="input-radio"
+            />2 times in a week</label
+          >
+          <label>
+            <input
+              name="user-recommend"
+              value="maybe"
+              type="radio"
+              class="input-radio"
+            />Month end only</label
+          >
+
+          <label
+            ><input
+              name="user-recommend"
+              value="not-sure"
+              type="radio"
+              class="input-radio"
+            />Not sure</label
+          >
+        </div>
+        <div class="form-group">
+          <p>
+            What would you like to try?
+            <span class="clue">(Check all that apply)</span>
+          </p>
+
+          <label
+            ><input
+              name="prefer"
+              value="Delhi"
+              type="checkbox"
+              class="input-checkbox"
+            />Delhi</label
+          >
+          <label>
+            <input
+              name="prefer"
+              value="Mumbai"
+              type="checkbox"
+              class="input-checkbox"
+            />Mumbai</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="Bengal"
+              type="checkbox"
+              class="input-checkbox"
+            />Bengal</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="Gujarat"
+              type="checkbox"
+              class="input-checkbox"
+            />Gujarat</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="Lakhanpur"
+              type="checkbox"
+              class="input-checkbox"
+            />Lakhanpur</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="Karnataka"
+              type="checkbox"
+              class="input-checkbox"
+            />Karnataka</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="Hyderabad"
+              type="checkbox"
+              class="input-checkbox"
+            />Hyderabad</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="Punjab"
+              type="checkbox"
+              class="input-checkbox"
+            />Punjab</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="Lucknow"
+              type="checkbox"
+              class="input-checkbox"
+            />Lucknow</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="Kolkata"
+              type="checkbox"
+              class="input-checkbox"
+            />Kolkata</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="Madhya Pradesh"
+              type="checkbox"
+              class="input-checkbox"
+            />Madhya Pradesh</label
+          >
+        </div>
+        <div class="form-group">
+          <p>Describe yourself?</p>
+          <textarea
+            id="comments"
+            class="input-textarea"
+            name="comment"
+            placeholder="Enter your comment here..."
+          ></textarea>
+        </div>
+        <div class="form-group">
+          <button type="submit" id="submit" class="submit-button">
+            Submit
+          </button>
+        </div>
+      </form>
+    </main>
+    <footer></footer>
+  </body>
+</html>
