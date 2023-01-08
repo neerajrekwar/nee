@@ -39,9 +39,12 @@
         /* border: 2px solid green; */
         padding: 5px;
       }
-      label{}
+      label{
+      }
       input{}
-      #name-label{}
+      #name-label{
+        display: inline;
+      }
       #email-label{}
       #number-label{}
       #name{}
@@ -86,10 +89,10 @@
           />
         </div>
         <div class="form-group">
-          <label id="number-label" for="name">Age</label>
+          <label id="number-label" for="number">Age</label>
           <input
             type="number"
-            name="name"
+            name="number"
             id="number"
             min="6"
             max="79"
