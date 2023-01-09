@@ -8,69 +8,97 @@
     <title>Survey form-byNR</title>
     <style>
       * {
-        margin:0;
-        
+        margin: 0;
       }
       body {
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        margin:0 auto;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+          'Lucida Sans', Arial, sans-serif;
+        margin: 0 auto;
         max-width: 444px;
         border: 2px solid;
         height: auto;
-        
       }
-      #title{
+      #title {
         text-align: center;
         color: tomato;
       }
-      #description{
+      #description {
         text-align: center;
         margin-left: 5px;
         font-size: 16px;
         font-weight: 600;
         font-style: italic;
       }
-      #survey-form{
+      #survey-form {
         margin: 5px;
         /* border: 2px solid */
       }
-      .form-group{
+      .form-group {
         margin: 5px;
-        /* border: 2px solid green; */
         padding: 5px;
+        /* display: flex; */
       }
-      label{
+      .form-group input, label{
+        display: flex;
+        justify-content: baseline;
+        align-items: center;
+        gap: 10px;
+      }
+      label {
         font-size: 1em;
-        margin: 0px 0em 10px 0em;
+        width: 100%;
       }
-      input{
-        font-size: .8em;
+      input {
         border: none;
-        border-bottom: 1px solid tomato;
-        height: 35px;
+        height: 20px;
         background-color: transparent;
       }
-      #name-label{
+      .form-control {
         display: flex;
-        border: 2px green;
+        justify-content: baseline;
+        align-items: center;
+        width: 100%;
       }
-      #email-label{
+      #name-label {
         display: flex;
       }
-      #number-label{
+      #email-label {
         display: flex;
       }
-      #name{}
-      #email{}
-      #number{}
-      .form-group{}
-      .dropdown{}
-      select{}
-      option{}
+      #number-label {
+        display: flex;
+      }
+      #name {
+        border-bottom: 2px solid tomato;
+      }
+      #email {
+        border-bottom: 2px solid tomato;
+      }
+      #number {
+        border-bottom: 2px solid tomato;
+      }
+      label
+      .input-radio +
+      .input-checkbox {
+        display: flex;
+        justify-content: baseline;
+        align-items: center;
+      }
+      #dropdown  {
+        border-radius: 10px;
+        background-color: #ffffbe;
+      }
+      select {}
+      option {}
       h1{}
-      p{}
-      .input-radio{}
-
+      p{
+        margin-bottom: 20px;
+        margin-top: 10px;
+        font-size: 18px;
+        font-weight: 200;
+        font-style: italic;
+      }
+      }
     </style>
   </head>
   <body>
