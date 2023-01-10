@@ -10,23 +10,51 @@
       * {
         margin: 0;
       }
+      
       body {
+        background: hsla(217, 100%, 50%, 1);
+        background: linear-gradient(45deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+        background: -moz-linear-gradient(45deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+        background: -webkit-linear-gradient(65deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0061ff", endColorstr="#60efff", GradientType=1 );
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
           'Lucida Sans', Arial, sans-serif;
         margin: 0 auto;
-        max-width: 444px;
-        /* border: 2px solid; */
+        max-width: 500px;
         height: auto;
+        font-size: 16px;
+        /* border: 2px solid green; */
+      }
+      main {
+        margin: 0 auto;
+
+      }
+      .container {
+        background: hsla(136, 82%, 72%, 1);
+background: linear-gradient(90deg, hsla(136, 82%, 72%, 1) 0%, hsla(205, 84%, 36%, 1) 100%);
+background: -moz-linear-gradient(90deg, hsla(136, 82%, 72%, 1) 0%, hsla(205, 84%, 36%, 1) 100%);
+background: -webkit-linear-gradient(90deg, hsla(136, 82%, 72%, 1) 0%, hsla(205, 84%, 36%, 1) 100%);
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#7EF29D", endColorstr="#0F68A9", GradientType=1 );
+        box-shadow: 60px -16px teal;box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 25px;
+        /* margin: 0 auto;
+        border: 2px solid green;
+        background-image: url(https://images.unsplash.com/photo-1484723091739-30a097e8f929?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1498&q=80);
+        opacity: 0.9;
+        width: 444x;
+        background-size: 20%;
+        background-repeat: no-repeat; */
+        /* border: 2px solid #353535; */
       }
       #title {
         text-align: center;
-        color: tomato;
-        font-size: 32px;
+        color: #131515;
+        font-size: 1.8em;
         margin: 20px 0 20px 0;
+        padding: 20px;
         text-transform: uppercase;
         font-weight: bold;
         font-family: 'alata';
-
       }
       #description {
         text-align: left;
@@ -43,7 +71,8 @@
         padding: 5px;
         /* display: flex; */
       }
-      .form-group input, label{
+      .form-group input,
+      label {
         display: flex;
         justify-content: baseline;
         align-items: center;
@@ -52,12 +81,13 @@
       label {
         font-size: 1em;
         width: 100%;
-        color: #364652;
+        color: #fff;
       }
       input {
         border: none;
-        height: 30px;
+        height: 20px;
         background-color: transparent;
+        outline: none;
       }
       .form-control {
         display: flex;
@@ -67,44 +97,60 @@
       }
       #name-label {
         display: flex;
+        margin: 10px 0;
+  
       }
       #email-label {
         display: flex;
+        margin: 10px 0;
       }
       #number-label {
         display: flex;
+        margin: 10px 0;
       }
       #name {
-        border-bottom: 2px solid #FF63473e;
-        height: 45px;
+        border-bottom: 2px solid #ff6347;
+        height: 20px;
+        padding-left: 20px;
       }
       #email {
-        border-bottom: 2px solid #FF63473e;
-        height: 45px;
+        border-bottom: 2px solid #ff6347;
+        height: 20px;
+        padding-left: 20px;
       }
       #number {
-        border-bottom: 2px solid #FF63473e;
-        height: 45px;
+        border-bottom: 2px solid #ff6347;
+        height: 20px;
+        padding-left: 20px;
       }
-      label
-      .input-radio +
-      .input-checkbox {
+      label .input-radio + .input-checkbox {
         display: flex;
         justify-content: baseline;
         align-items: center;
-        opacity:.8;
+        border: none;
+        height: 32px;
       }
-      #dropdown  {
-        font-size: 1.1em;
+      #dropdown {
+        font-size: 1em;
         font-weight: 300;
-        opacity:.6;
-        /* border-radius: 10px; */
-        /* background-color: #ffffbe; */
+        opacity: 0.6;
+        background-color: #ffffbe;
+        border-radius: 25px;
+        padding-left: 10px; 
         height: 35px;
         border: none;
+        outline: none;
+        color: #393E41;
+        width: 100%;
       }
-      select {}
-      option {}
+
+      select {
+      }
+      option {
+        color: #E94F37;
+        margin: 5px;
+        outline: none
+      }
       p {
         margin-bottom: 20px;
         margin-top: 10px;
@@ -115,22 +161,37 @@
       textarea {
         width: 100%;
         border: none;
+        outline: none;
+
       }
-      #submit{
+      #submit {
         border: none;
         background-color: #000;
         color: #fff;
+        font-size: 1em;
+        border-radius: 25px;
+        height: 32px;
+        width: 25%;
+        margin: 20px 0 50px;
       }
-      .submit-button:hover{
-        background-color: #fff;
+      .submit-button:hover {
+        background: #fff;
         color: #000;
-      }
+        height: 62px;
 
-    </style>
+
+      }
+      @media all and (max-width: 500px) {
+        body{
+          margin 0 auto;
+        }
+      }
+    </style> 
   </head>
   <body>
     <header><nav></nav></header>
     <main>
+      <div class="container">
       <h1 id="title">stay informed</h1>
       <p id="description">fill your information below the form</p>
       <form id="survey-form">
@@ -328,6 +389,7 @@
           </button>
         </div>
       </form>
+    </div>
     </main>
     <footer></footer>
   </body>
