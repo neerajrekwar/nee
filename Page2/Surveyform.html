@@ -26,17 +26,18 @@
         /* border: 2px solid green; */
       }
       main {
-        margin: 0 auto;
+        margin: 20px;
+
 
       }
       .container {
         background: hsla(136, 82%, 72%, 1);
 background: linear-gradient(90deg, hsla(136, 82%, 72%, 1) 0%, hsla(205, 84%, 36%, 1) 100%);
-background: -moz-linear-gradient(90deg, hsla(136, 82%, 72%, 1) 0%, hsla(205, 84%, 36%, 1) 100%);
-background: -webkit-linear-gradient(90deg, hsla(136, 82%, 72%, 1) 0%, hsla(205, 84%, 36%, 1) 100%);
+background: -moz-linear-gradient(450deg, hsla(136, 82%, 72%, 1) 0%, hsla(205, 84%, 36%, 1) 100%);
+background: -webkit-linear-gradient(45deg, hsla(136, 82%, 72%, 1) 0%, hsla(205, 84%, 36%, 1) 100%);
 filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#7EF29D", endColorstr="#0F68A9", GradientType=1 );
         box-shadow: 60px -16px teal;box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-        border-radius: 25px;
+        border-radius: 5px;
         /* margin: 0 auto;
         border: 2px solid green;
         background-image: url(https://images.unsplash.com/photo-1484723091739-30a097e8f929?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1498&q=80);
@@ -80,20 +81,22 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#7EF29D", en
       }
       label {
         font-size: 1em;
-        width: 100%;
         color: #fff;
       }
       input {
         border: none;
-        height: 20px;
-        background-color: transparent;
+        height: 30px;
+        /* background-color: transparent; */
         outline: none;
+        color: #000;
+        /* width: 100%; */
+        border-radius: 25px;
+        padding: 0px 10px;
       }
       .form-control {
         display: flex;
         justify-content: baseline;
         align-items: center;
-        width: 100%;
       }
       #name-label {
         display: flex;
@@ -108,27 +111,22 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#7EF29D", en
         display: flex;
         margin: 10px 0;
       }
-      #name {
-        border-bottom: 2px solid #ff6347;
-        height: 20px;
-        padding-left: 20px;
-      }
-      #email {
-        border-bottom: 2px solid #ff6347;
-        height: 20px;
-        padding-left: 20px;
-      }
+      #name, 
+      #email,
       #number {
-        border-bottom: 2px solid #ff6347;
-        height: 20px;
-        padding-left: 20px;
+        /* border-bottom: 2px solid #ff6347; */
+        height: 30px;
+        width: 95%
       }
-      label .input-radio + .input-checkbox {
+
+      label, .input-radio + .input-checkbox {
         display: flex;
         justify-content: baseline;
         align-items: center;
         border: none;
         height: 32px;
+        size: 25px;
+        outline: none;
       }
       #dropdown {
         font-size: 1em;
@@ -140,14 +138,14 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#7EF29D", en
         height: 35px;
         border: none;
         outline: none;
-        color: #393E41;
+        color: #177E89;
         width: 100%;
       }
 
       select {
       }
       option {
-        color: #E94F37;
+        color: #177E89;
         margin: 5px;
         outline: none
       }
@@ -164,7 +162,7 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#7EF29D", en
         outline: none;
 
       }
-      #submit {
+      /* #submit {
         border: none;
         background-color: #000;
         color: #fff;
@@ -174,17 +172,30 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#7EF29D", en
         width: 25%;
         margin: 20px 0 50px;
       }
-      .submit-button:hover {
+      .submit:hover {
         background: #fff;
         color: #000;
         height: 62px;
+      } */
+      button {
+ font-size: 17px;
+ padding: 0.5em 2em;
+ border: transparent;
+ box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+ background: dodgerblue;
+ color: white;
+ border-radius: 4px;
+}
 
+button:hover {
+ background: rgb(2,0,36);
+ background: linear-gradient(90deg, rgba(30,144,255,1) 0%, rgba(0,212,255,1) 100%);
+}
 
-      }
-      @media all and (max-width: 500px) {
-        body{
-          margin 0 auto;
-        }
+button:active {
+ transform: translate(0em, 0.2em);
+}
+
       }
     </style> 
   </head>
@@ -284,6 +295,10 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#7EF29D", en
             What would you like to try?
             <span class="clue">(Check all that apply)</span>
           </p>
+
+          <!-- new -->
+          
+          <!-- new -->
 
           <label
             ><input
