@@ -5,179 +5,190 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lato:wght@300&family=Sora:wght@200&display=swap"
+      rel="stylesheet"
+    />
     <title>Survey form-byNR</title>
     <style>
-            * {
-              margin: 0;
-            }
+       * {
+         margin: 0;
+       }
 
-            body {
-              
-              font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-                'Lucida Sans', Arial, sans-serif;
-              margin: 0 auto;
-              max-width: 500px;
-              height: auto;
-              font-size: 16px;
-              /* border: 2px solid green; */
-              background: hsla(202, 71%, 27%, 1);
+       body {
 
-background: linear-gradient(90deg, hsla(202, 71%, 27%, 1) 0%, hsla(176, 45%, 66%, 1) 100%);
+         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+           'Lucida Sans', Arial, sans-serif;
+         margin: 0 auto;
+         max-width: 500px;
+         height: auto;
+         font-size: 16px;
+         /* border: 2px solid green; */
+         background: hsla(202, 71%, 27%, 1);
 
-background: -moz-linear-gradient(90deg, hsla(202, 71%, 27%, 1) 0%, hsla(176, 45%, 66%, 1) 100%);
+         background: linear-gradient(90deg, hsla(202, 71%, 27%, 1) 0%, hsla(176, 45%, 66%, 1) 100%);
 
-background: -webkit-linear-gradient(90deg, hsla(202, 71%, 27%, 1) 0%, hsla(176, 45%, 66%, 1) 100%);
+          background: -moz-linear-gradient(90deg, hsla(202, 71%, 27%, 1) 0%, hsla(176, 45%, 66%, 1) 100%);
 
-filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#145277", endColorstr="#83D0CB", GradientType=1 );
-            }
-            main {
-              margin: 20px;
-            }
-            .container {
-              background: hsla(136, 82%, 72%, 1);
-      background: linear-gradient(90deg, hsla(136, 82%, 72%, 1) 0%, hsla(205, 84%, 36%, 1) 100%);
-      background: -moz-linear-gradient(450deg, hsla(136, 82%, 72%, 1) 0%, hsla(205, 84%, 36%, 1) 100%);
-      background: -webkit-linear-gradient(45deg, hsla(136, 82%, 72%, 1) 0%, hsla(205, 84%, 36%, 1) 100%);
-      filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#7EF29D", endColorstr="#0F68A9", GradientType=1 );
-              box-shadow: 60px -16px teal;box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-              border-radius: 25px;
-            }
-            #title {
-              text-align: center;
-              color: #131515;
-              font-size: 2em;
-              margin: 20px 0 20px 0;
-              padding: 20px;
-              text-transform: uppercase;
-              font-weight: bold;
-              font-family: 'alata';
-            }
-            #description {
-              text-align: left;
-              margin-left: 15px;
-              font-weight: 600;
-              font-style: italic;
-            }
-            #survey-form {
-              margin: 5px;
-              /* border: 2px solid */
-            }
-            .form-group {
-              margin: 5px;
-              padding: 5px;
-              /* display: flex; */
-            }
-            .form-group input,
-            label {
-              display: flex;
-              justify-content: baseline;
-              align-items: center;
-              gap: 10px;
-            }
-            label{}
-            input {
-              border: none;
-              height: 30px;
-              /* background-color: transparent; */
-              outline: none;
-              color: #000;
-              /* width: 100%; */
-              border-radius: 25px;
-              padding: 0px 10px;
-            }
-            label, input{
-              height: 50px;
-              color: #145
-            }
-            .form-control {
-              display: flex;
-              justify-content: baseline;
-              align-items: center;
-            }
-            #name-label {
-              display: flex;
-              margin: 10px 0;
+            background: -webkit-linear-gradient(90deg, hsla(202, 71%, 27%, 1) 0%, hsla(176, 45%, 66%, 1) 100%);
 
+               filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#145277", endColorstr="#83D0CB", GradientType=1 );
+               }
+       main {
+         margin: 20px;
             }
-            #email-label {
-              display: flex;
-              margin: 10px 0;
-            }
-            #number-label {
-              display: flex;
-              margin: 10px 0;
-            }
-            #name,
-            #email,
-            #number {
-              /* border-bottom: 2px solid #ff6347; */
-              height: 30px;
-              width: 95%
-            }
+      .container {
+         background: hsla(136, 82%, 72%, 1);
+         background: linear-gradient(90deg, hsla(136, 82%, 72%, 1) 0%, hsla(205, 84%, 36%, 1) 100%);
+         background: -moz-linear-gradient(450deg, hsla(136, 82%, 72%, 1) 0%, hsla(205, 84%, 36%, 1) 100%);
+         background: -webkit-linear-gradient(45deg, hsla(136, 82%, 72%, 1) 0%, hsla(205, 84%, 36%, 1) 100%);
+         filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#7EF29D", endColorstr="#0F68A9", GradientType=1 );
+         box-shadow: 60px -16px teal;box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+         border-radius: 25px;
+       }
+       #title {
+         text-align: center;
+         color: #fff;
+         font-weight: 600;
+         font-size: 1.10em;
+         margin: 20px 0 20px 0;
+         padding: 20px;
+         font-family: 'Dancing Script', cursive;
+         text-transform: uppercase;
+         font-weight: bold;
+         font-family: 'alata';
+       }
+       #description {
+         text-align: left;
+         margin-left: 15px;
+         font-style: italic;
+         font-size: 1.010em;
+         color: #D9D9D98e;
+       }
+       #survey-form {
+         margin: 5px;
+         /* border: 2px solid */
+       }
+       .form-group {
+         margin: 5px;
+         padding: 5px;
+       }
+       .form-group input,
+       label {
+         display: flex;
+         justify-content: baseline;
+         align-items: center;
+         gap: 10px;
+       }
+       label{}
+       input {
+         border: none;
+         height: 30px;
+         /* background-color: transparent; */
+         outline: none;
+         color: #000;
+         /* width: 100%; */
+         border-radius: 25px;
+         padding: 0px 10px;
+       }
+       label, input > .input-radio{
+         height: 50px;
+         color: #145
+       }
+       .form-control {
+         display: flex;
+         justify-content: baseline;
+         align-items: center;
+       }
+       #name-label {
+         display: flex;
+         margin: 10px 0;
 
-            label, .input-radio + .input-checkbox {
-              display: flex;
-              justify-content: baseline;
-              align-items: center;
-              border: none;
-              height: 32px;
-              size: 25px;
-              outline: none;
-            }
-            #dropdown {
-              font-size: 1em;
-              font-weight: 300;
-              opacity: 0.6;
-              background-color: #ffffbe;
-              border-radius: 25px;
-              padding-left: 10px;
-              height: 35px;
-              border: none;
-              outline: none;
-              color: #177E89;
-              width: 100%;
-            }
+       }
+       #email-label {
+         display: flex;
+         margin: 10px 0;
+       }
+       #number-label {
+         display: flex;
+         margin: 10px 0;
+       }
+       #name,
+       #email,
+       #number {
+         /* border-bottom: 2px solid #ff6347; */
+         height: 30px;
+         width: 95%
+       }
 
-            select {
-            }
-            option {
-              color: #177E89;
-              margin: 5px;
-              outline: none
-            }
-            p {
-              margin-bottom: 20px;
-              margin-top: 10px;
-              font-size: 16px;
-              font-weight: 200;
-              font-style: normal;
-            }
-            textarea {
-              width: 100%;
-              border: none;
-              outline: none;
-            }
-            button {
-              margin: 0 auto;
-              font-size: 1.7em;
-              padding: 0.5em 2em;
-              border: transparent;
-              box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
-              background: dodgerblue;
-              color: white;
-              border-radius: 25px;
-      }
+       label, .input-radio + .input-checkbox {
+         display: flex;
+         justify-content: baseline;
+         align-items: center;
+         border: none;
+         height: 32px;
+         size: 25px;
+         outline: none;
+       }
+       #dropdown {
+         font-size: 1em;
+         font-weight: 300;
+         opacity: 0.6;
+         background-color: #ffffbe;
+         border-radius: 25px;
+         padding-left: 10px;
+         height: 35px;
+         border: none;
+         outline: none;
+         color: #177E89;
+         width: 100%;
+       }
 
-      button:hover {
-       background: rgb(2,0,36);
-       background: linear-gradient(90deg, rgba(30,144,255,1) 0%, rgba(0,212,255,1) 100%);
-      }
+       select {
+       }
+       option {
+         color: #177E89;
+         margin: 5px;
+         outline: none
+       }
+       p {
+         text-align: left;
+         margin-bottom: 20px;
+         margin-top: 10px;
+         font-size: 16px;
+         font-weight: 200;
+         font-style: normal;
+       }
+       textarea {
+         width: 100%;
+         border: none;
+         outline: none;
+         border-radius: 6px;
+         height: 60px
+       }
+       .container, button {
+         margin: 0 auto;
+         text-align: center;
+         font-size: 1em;
+         padding: 0.5em 2em;
+         border: transparent;
+         box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+         background: dodgerblue;
+         color: white;
+         border-radius: 25px;
+         }
 
-      button:active {
-       transform: translate(0em, 0.2em);
-      }
+       button:hover {
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(30,144,255,1) 0%, rgba(0,212,255,1) 100%);
+         }
 
-            }
+       button:active {
+        transform: translate(0em, 0.2em);
+         }
+        }
     </style>
   </head>
   <body>
@@ -185,7 +196,10 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#145277", en
     <main>
       <div class="container">
         <h1 id="title">stay informed</h1>
-        <p id="description">Street food is a great way to experience the local culture and explore the cuisines of different countries.</p>
+        <p id="description">
+          Street food is a great way to experience the local culture and explore
+          the cuisines of different countries.
+        </p>
         <form id="survey-form">
           <div class="form-group">
             <label id="name-label" for="name">Name</label>
