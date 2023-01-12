@@ -25,22 +25,14 @@
          max-width: 600px;
          height: auto;
          font-size: 16px;
-         font
-         /* border: 2px solid green; */
-         background: hsla(202, 71%, 27%, 1);
-
-         /* background: linear-gradient(90deg, hsla(202, 71%, 27%, 1) 0%, hsla(176, 45%, 66%, 1) 100%);
-
-         background: -moz-linear-gradient(90deg, hsla(202, 71%, 27%, 1) 0%, hsla(176, 45%, 66%, 1) 100%);
-
-        background: -webkit-linear-gradient(90deg, hsla(202, 71%, 27%, 1) 0%, hsla(176, 45%, 66%, 1) 100%); */
-               }
+          }
        main {
          margin: 20px;
             }
       .container {
-         background: hsla(136, 82%, 72%, 1);
-         box-shadow: 60px -16px teal;box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+         background: hsla(137, 76%, 6%, 0.445);
+         box-shadow: 60px -16px teal;
+         box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
          border-radius: 25px;
        }
        #title {
@@ -82,18 +74,20 @@
          gap: 10px;
        }
        label{
-         font-size: 14px;
+         font-size: 16px;
          color: #353535;
        }
        input {
          border: none;
          height: 30px;
          /* background-color: transparent; */
-         outline: none;
-         color: #000;
+         /* outline: none; */
+         /* color: #000; */
          /* width: 100%; */
          border-radius: 25px;
          padding: 0px 10px;
+         stroke: none;
+         stroke-dasharray: 60;
        }
        .form-group > .input-radio{
          height: 50px;
@@ -133,6 +127,13 @@
          size: 25px;
          outline: none;
        }
+       .input-radio,
+       .input-checkbox{
+         width: 20px;
+         outline: none;
+         stroke: none;
+         border: none;
+       }
        #dropdown {
          font-size: 1em;
          font-weight: 300;
@@ -158,7 +159,8 @@
          text-align: left;
          margin-bottom: 20px;
          margin-top: 10px;
-         font-size: 18px;
+         font-size: 17px;
+         
          font-weight: 300;
          font-style: normal;
          color: #000;
