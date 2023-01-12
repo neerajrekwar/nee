@@ -65,13 +65,13 @@ h2{
   align-content: space-between;
   font-size: 0.8em;
   color: #000000;
-  opacity: .6;
+  opacity: .8;
   font-weight: 600;
   font-family: 'alata', sans-serif;
   width: 100%;
   max-width: 90%;
   text-align: center;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   line-height: 20px;
   /* background: #27836c; */
 }
@@ -83,7 +83,7 @@ h2{
   
 }
 .other-links svg {
-  color: #1b1919;
+  color: #353535;
   margin: 2px;
   padding: 5px;
   border-radius: 50%;
