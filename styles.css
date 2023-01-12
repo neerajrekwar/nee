@@ -92,7 +92,7 @@ button {
   /* Variables */
  --button_radius: 0.75em;
  --button_color: #e8e8e8;
- --button_outline_color: #000000;
+ --button_outline_color: #8EA604;
  font-size: 17px;
  font-weight: bold;
  border: none;
@@ -115,7 +115,7 @@ button {
 }
 .subsicribe_btn a {
   text-decoration: none;
-  color: #000;
+  color: #353535;
 }
 button:hover .button_top {
   /* Pull the button upwards when hovered */
