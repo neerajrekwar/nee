@@ -83,11 +83,11 @@ h2{
   
 }
 .other-links svg {
-  color: #2b2926;
+  color: #1b1919;
   margin: 2px;
   padding: 5px;
   border-radius: 50%;
-  background-color: #41a738;
+  /* background-color: #41a738; */
 }
 button {
   /* Variables */
