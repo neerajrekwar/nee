@@ -5,7 +5,11 @@
   font-size: 16px;
   margin: 0 auto;
 }
-
+a{
+  text-decoration: none;
+  list-style: none;
+  color: #000;
+}
 .containerr {
   height: 350px;
   margin: 0 auto;
