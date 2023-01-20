@@ -12,7 +12,7 @@
   --color-text: #222022;
   --color-highlight-primary: #FFEF7E;
   --color-highlight-secondary: #B7F9E9;
-  --border-radius-primary: 32px; 
+  --border-radius-primary: 22px; 
 }
 
 body {
@@ -70,7 +70,7 @@ body {
   @include mediaBig {
     width: 45%;
     max-height: none;
-    min-height: 400px;
+    min-height: 500px;
     margin-bottom: 0;
   }
 }
