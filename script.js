@@ -8,4 +8,3 @@ function screen() {
 
 document.getElementById('full-size-h').innerHTML = 'Screen: ' + myWidth + "x" + myheight + ' px' ;
 }
-
