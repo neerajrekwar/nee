@@ -281,8 +281,8 @@ main {
 }
 .post {
   font-size: 1.5em;
-  margin-left: 25px;
-  margin-right: 25px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 .post:hover {
   transition: 0.2s ease-in;
