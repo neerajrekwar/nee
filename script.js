@@ -20,3 +20,7 @@ function screen() {
 document.getElementById('full-size-h').innerHTML = 'Screen: ' + myWidth + "x" + myheight + ' px' ;
 }
 
+var myAge = 21;
+myAge - 2;
+
+console.log('myAge');
