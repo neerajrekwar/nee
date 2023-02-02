@@ -15,12 +15,8 @@
   --border-radius-primary: 22px; 
 }
 
+
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-  // height: 10vh;
   padding: 0;
   margin: 0;
 }
@@ -108,4 +104,10 @@ body {
   background-position: 0 85%;
   padding: 0 4px;
   margin-left: -4px;
+}
+
+.subscribe{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
