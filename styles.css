@@ -109,6 +109,10 @@ body {
 .Sub_containerC {
   background-color: #c49e65;
 }
+.full-post{
+  background-color: #b5c465;
+  border: 2px solid yellow;
+}
 
 footer {
   background: rgb(96, 137, 212);
@@ -172,7 +176,7 @@ footer {
   text-decoration: none;
 }
 .full-post{
-  background-color: #b5c465;
+  background-color: #485308;
 }
 
 @media (min-width: 576px) {
