@@ -112,6 +112,7 @@ body {
 
 footer {
   background: rgb(96, 137, 212);
+  border: 2px solid var(--color-text);
 }
 
 @media (min-width: 576px) {
