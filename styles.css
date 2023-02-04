@@ -6,6 +6,7 @@
   font-size: 16px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-decoration: none;
+  scroll-behavior: smooth;
 }
 
 :root {
@@ -86,11 +87,8 @@ body {
 .img_profile {
   margin: 10px;
   padding: 13px;
-  width: 250px;
-  min-width: -webkit-min-content;
-  min-width: -moz-min-content;
-  min-width: min-content;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
 }
 
