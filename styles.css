@@ -94,8 +94,17 @@ body {
 
 .Sub_containerB {
   background-color: #b5c465;
+  margin: 0 auto;
 }
-
+.mid_container{
+  margin: 0 auto;
+}
+.post_container{
+  margin: 0 auto;
+}
+.post{
+  margin: 0 auto;
+}
 .Sub_containerC {
   background-color: #c49e65;
 }
@@ -160,6 +169,10 @@ footer {
   margin-bottom: 6px;
   text-decoration: none;
 }
+.full-post{
+  background-color: #b5c465;
+}
+
 @media (min-width: 576px) {
   .card__date {
     margin-bottom: 8px;
