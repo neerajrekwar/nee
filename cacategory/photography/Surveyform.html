@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lato:wght@300&family=Sora:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <title>Survey form - Stay informed</title>
+    <style>
+       * {
+         margin: 0;
+       }
+
+       body {
+          box-sizing: border-box;
+         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+           'Lucida Sans', Arial, sans-serif;
+         margin: 0 auto;
+         max-width: 600px;
+         height: auto;
+         font-size: 16px;
+          }
+       main {
+         margin: 20px;
+         /* filter: blur(1px); */
+            }
+      .container {
+         background: hsla(137, 76%, 6%, 0.195);
+         box-shadow: 60px -16px teal;
+         box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+         border-radius: 25px;
+         
+       }
+       #title {
+         text-align: center;
+         color: #353535;
+         font-weight: 600;
+         font-size: 1.3em;
+         margin: 20px 0 20px 0;
+         padding: 20px;
+         font-family: 'Inconsolata', monospace;
+         text-transform: uppercase;
+         font-weight: bold;
+         font-family: 'alata';
+       }
+       #description {
+         text-align: left;
+         margin-left: 15px;
+         font-style: italic;
+         font-size: 1.10em;
+         color: #353535;
+       }
+       .clue{
+         font-style: italic;
+         font-size: 10px;
+       }
+       #survey-form {
+         margin: 5px;
+         /* border: 2px solid */
+       }
+       .form-group {
+         margin: 5px;
+         padding: 5px;
+       }
+       .form-group input,
+       label {
+         display: flex;
+         justify-content: baseline;
+         align-items: center;
+         gap: 10px;
+       }
+       label{
+         font-size: 16px;
+         color: #353535;
+       }
+       input {
+         border: none;
+         height: 30px;
+         border-radius: 25px;
+         padding: 0px 10px;
+         stroke: none;
+         stroke-dasharray: 60;
+         outline: none;
+       }
+       .form-group > .input-radio{
+         height: 50px;
+       }
+       .form-control {
+         display: flex;
+         justify-content: baseline;
+         align-items: center;
+       }
+       #name-label {
+         display: flex;
+         margin: 10px 0;
+
+       }
+       #email-label {
+         display: flex;
+         margin: 10px 0;
+       }
+       #number-label {
+         display: flex;
+         margin: 10px 0;
+       }
+       #name,
+       #email,
+       #number {
+         /* border-bottom: 2px solid #ff6347; */
+         height: 40px;
+         width: 98%
+       }
+
+       .form-group > .input-radio + .input-checkbox {
+         display: flex;
+         justify-content: baseline;
+         align-items: center;
+         border: none;
+         height: 2px;
+         size: 25px;
+         outline: none;
+       }
+       .input-radio,
+       .input-checkbox{
+         width: 20px;
+         outline: none;
+         stroke: none;
+         border: none;
+       }
+       .check {
+         margin: 5px;
+ position: relative;
+ width: 20px;
+ height: 20px;
+ border-radius: 2px;
+ appearance: none;
+ background-color: #8EA604;
+ transition: all .3s;
+}
+
+.check::before {
+ content: '';
+ position: absolute;
+ border: solid #fff;
+ display: block;
+ width: .3em;
+ height: .6em;
+ border-width: 0 .2em .2em 0;
+ z-index: 1;
+ opacity: 0;
+ right: calc(50% - .3em);
+ top: calc(50% - .6em);
+ transform: rotate(0deg);
+ transition: all .3s;
+ transform-origin: center center;
+}
+
+.check:checked {
+ animation: a .3s ease-in forwards;
+ background-color: #EC9F05;
+}
+
+.check:checked::before {
+ opacity: 1;
+ transform: rotate(405deg);
+}
+
+@keyframes a {
+ 0% {
+  opacity: 1;
+  transform: scale(1) rotateY(0deg);
+ }
+
+ 50% {
+  opacity: 0;
+  transform: scale(.8) rotateY(180deg);
+ }
+
+ 100% {
+  opacity: 1;
+  transform: scale(1) rotateY(360deg);
+ }
+}
+       #dropdown {
+         font-size: 16px;
+         font-weight: 300;
+         opacity: 0.8;
+         background-color: #ffffbe;
+         border-radius: 25px;
+         padding-left: 10px;
+         height: 40px;
+         border: none;
+         outline: none;
+         color: #353535;
+         width: 100%;
+       }
+
+       select {
+       }
+       option {
+         color: #353535;
+         margin: 50px;
+         outline: none;
+       }
+       p {
+         text-align: left;
+         margin-bottom: 20px;
+         margin-top: 10px;
+         font-size: 17px;
+         
+         font-weight: 300;
+         font-style: normal;
+         color: #000;
+       }
+       textarea {
+         width: 100%;
+         border: none;
+         outline: none;
+         border-radius: 6px;
+         height: 60px
+       }
+       .container {
+         margin: 0 auto;
+         text-align: center;
+         padding: 0.5em 2em;
+         border: transparent;
+         box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+         background: rgba(45,179,68 .3);
+         border-radius: 25px;
+         }
+
+         .submit-button {
+         margin: 0 auto;
+         text-align: center;
+         font-size: 1em;
+         padding: 0.5em 2em;
+         border: transparent;
+         box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+         background: #000;
+         color: white;
+         border-radius: 25px;
+         }
+
+       .submit-button:hover {
+        background: rgba(2,0,36 .2);
+        background: linear-gradient(90deg, rgba(30,144,255,1) 0%, rgba(0,212,255,1) 100%);
+         }
+
+       .submit-button:active {
+        transform: translate(0em, 0.2em);
+         }}
+    </style>
+  </head>
+  <body>
+    <header><nav></nav></header>
+    <main>
+      <div class="container">
+        <h1 id="title">stay informed</h1>
+        <p id="description">
+          Street food is a great way to experience the local culture and explore
+          the cuisines of different countries.
+        </p>
+        <form id="survey-form">
+          <div class="form-group">
+            <label id="name-label" for="name">Name</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              class="form-control"
+              placeholder="Enter your name"
+              required=""
+            />
+          </div>
+          <div class="form-group">
+            <label id="email-label" for="email">Your E-mail</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="form-control"
+              placeholder="Enter your email"
+              required=""
+            />
+          </div>
+          <div class="form-group">
+            <label id="number-label" for="number">Age</label>
+            <input
+              type="number"
+              name="number"
+              id="number"
+              min="6"
+              max="79"
+              class="form-control"
+              placeholder="Enter your age"
+              required=""
+            />
+          </div>
+          <div class="form-group">
+            <p>Which is your favorite street food from the list given below?</p>
+            <select id="dropdown" name="role" class="form-control" required="">
+              <option disabled="" selected="" value="">
+                Street food lists
+              </option>
+              <option value="Vada Pao">Vada Pao</option>
+              <option value="Momos">Momos</option>
+              <option value="Chole Bhature">Chole Bhature</option>
+              <option value="Litti Choka">Litti Choka</option>
+              <option value="preferNo">Prefer not to say</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <p>How many times go out eating street food in a month?</p>
+            <label>
+              <input
+                name="user-recommend"
+                value="definitely"
+                type="radio"
+                class="input-radio"
+                checked=""
+              />Every saturday</label
+            >
+            <label>
+              <input
+                name="user-recommend"
+                value="maybe"
+                type="radio"
+                class="input-radio"
+              />2 times in a week</label
+            >
+            <label>
+              <input
+                name="user-recommend"
+                value="maybe"
+                type="radio"
+                class="input-radio"
+              />Month end only</label
+            >
+
+            <label
+              ><input
+                name="user-recommend"
+                value="not-sure"
+                type="radio"
+                class="input-radio"
+              />Not sure</label
+            >
+          </div>
+          <div class="form-group">
+            <p>
+              What would you like to try?
+              <span class="clue">(Check all that apply)</span>
+            </p>
+
+            <!-- new -->
+
+            <!-- new -->
+
+            <label
+              ><input
+                name="prefer"
+                value="Delhi"
+                type="checkbox"
+                class="input-checkbox check"
+              />Delhi</label
+            >
+            <label>
+              <input
+                name="prefer"
+                value="Mumbai"
+                type="checkbox"
+                class="input-checkbox check"
+              />Mumbai</label
+            >
+            <label
+              ><input
+                name="prefer"
+                value="Bengal"
+                type="checkbox"
+                class="input-checkbox check"
+              />Bengal</label
+            >
+            <label
+              ><input
+                name="prefer"
+                value="Gujarat"
+                type="checkbox"
+                class="input-checkbox check"
+              />Gujarat</label
+            >
+            <label
+              ><input
+                name="prefer"
+                value="Lakhanpur"
+                type="checkbox"
+                class="input-checkbox check"
+              />Lakhanpur</label
+            >
+            <label
+              ><input
+                name="prefer"
+                value="Karnataka"
+                type="checkbox"
+                class="input-checkbox check"
+              />Karnataka</label
+            >
+            <label
+              ><input
+                name="prefer"
+                value="Hyderabad"
+                type="checkbox"
+                class="input-checkbox check"
+              />Hyderabad</label
+            >
+            <label
+              ><input
+                name="prefer"
+                value="Punjab"
+                type="checkbox"
+                class="input-checkbox check"
+              />Punjab</label
+            >
+            <label
+              ><input
+                name="prefer"
+                value="Lucknow"
+                type="checkbox"
+                class="input-checkbox check"
+              />Lucknow</label
+            >
+            <label
+              ><input
+                name="prefer"
+                value="Kolkata"
+                type="checkbox"
+                class="input-checkbox check"
+              />Kolkata</label
+            >
+            <label
+              ><input
+                name="prefer"
+                value="Madhya Pradesh"
+                type="checkbox"
+                class="input-checkbox check"
+              />Madhya Pradesh</label
+            >
+          </div>
+          <div class="form-group">
+            <p>Describe yourself?</p>
+            <textarea
+              id="comments"
+              class="input-textarea"
+              name="comment"
+              placeholder="Enter your comment here..."
+            ></textarea>
+          </div>
+          <div class="form-group">
+            <button type="submit" id="submit" class="submit-button">
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer></footer>
+    
+  </body>
+</html>
