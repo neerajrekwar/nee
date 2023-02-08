@@ -33,19 +33,19 @@ body {
 #full-size-h {
   font-size: 16px;
   color: #222022;
-  /* background-color: aqua; */
+  background-color: aqua;
 }
 
 .container {
   justify-content: center;
   align-items: center;
-  /* border: 2px solid tomato; */
+  border: 2px solid tomato;
   margin: 0;
   padding: 0;
 }
 
 .Sub_containerA {
-  /* background-color: #B7F9E9; */
+  background-color: #B7F9E9;
   height: auto;
 }
 
@@ -116,7 +116,7 @@ body {
 
 footer {
   background: rgb(96, 137, 212);
-  border: 2px solid #000;
+  border: 2px solid var(--color-text);
 }
 
 @media (min-width: 576px) {
