@@ -33,7 +33,7 @@ body {
 #full-size-h {
   font-size: 16px;
   color: #222022;
-  background-color: aqua;
+  /* background-color: aqua; */
 }
 
 .container {
@@ -45,7 +45,7 @@ body {
 }
 
 .Sub_containerA {
-  background-color: #B7F9E9;
+  /* background-color: #B7F9E9; */
   height: auto;
 }
 
