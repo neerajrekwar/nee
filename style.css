@@ -4,9 +4,11 @@
   font-size: 16px;
   color: #fff;
 }
-body {
+body, main {
   display: flex;
   margin: 0 auto;
   padding: 20px;
   width: 100%;
+  justify-content: center;
+  justify-items: center;
 }
