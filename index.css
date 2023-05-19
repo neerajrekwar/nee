@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
-  font-size: 26px;
+  font-size: 16px;
   color: #000000;
 }
 body, main {
@@ -12,6 +12,7 @@ body, main {
   height: 100%;
   justify-content: center;
   justify-items: center;
+  font-size: 10em;
 }
 /* CSS styles for screens with a maximum width of 768 pixels */
 @media (max-width: 768px) {
