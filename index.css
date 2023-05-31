@@ -20,6 +20,7 @@ body {
   border: 2px solid salmon ;
 }
 main{
+  background-repeat: no-repeat;
   background-image: url(https://images.unsplash.com/photo-1657721170703-c58c197c0506?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80);
 }
 /* CSS styles for screens with a maximum width of 768 pixels */
