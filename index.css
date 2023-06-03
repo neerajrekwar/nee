@@ -19,7 +19,11 @@ body {
   /* border: 2px solid salmon; */
 }
 
-main {}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 /* CSS styles for screens with a maximum width of 768 pixels */
 @media (max-width: 768px) {
