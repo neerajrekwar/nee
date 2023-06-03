@@ -4,10 +4,12 @@
   font-size: 16px;
   color: #000000;
 }
+
 body {
+  background-image: url('bg-image-small.jpg');
   background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
+  background-attachment: fixed;
   background-image: url(/image/matt-duncan-IUY_3DvM__w-unsplash.jpg);
   margin: 0 auto;
   padding: 20px;
@@ -16,10 +18,9 @@ body {
   font-size: 2.3em;
   /* border: 2px solid salmon; */
 }
-main{
-  
-  
-}
+
+main {}
+
 /* CSS styles for screens with a maximum width of 768 pixels */
 @media (max-width: 768px) {
   /* Add your styles here */
