@@ -24,7 +24,7 @@ function generateOTP() {
     return OTP;
 }
 
-const date = get.elmentById("#nee"); {
+const date = document.getElmentById("#nee"); {
 
     let currentDate = date.toJSON()
     console.log(currentDate)
