@@ -2,8 +2,38 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'poppins', sans-serif;
+  /* font-family: 'Arvo', serif; */
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Barriecito', cursive;
+  color: rgb(0, 0, 0);
 }
 body{
-  background: #225;
+  background: rgb(255, 255, 255);
+}
+header{
+  height: 10vh;
+  border: solid rgb(216, 95, 58);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+.logo{
+  font-family: 'Barriecito', cursive;
+  
+  text-decoration: none;
+}
+ul {
+  text-decoration: none;
+  list-style: none;
+}
+ul a {
+  margin: 0 10px;
+  text-decoration: none;
+  list-style: none;
+}
+
+.link:hover{
+  color: rgb(10, 136, 77);
 }
