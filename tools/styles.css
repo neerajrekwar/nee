@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    color: #fefcfb;
+  }
+  
+  body {
+    margin: 10px;
+    font-family: system-ui, sans-serif;
+    background-color: #0a1128;
+  
+  }
+  
+  .display{
+    border-radius: 5px;
+    display: inline-flex;
+    background: #034078;
+  }
+  svg{
+    color: #0a1128;
+    margin: 2px;
+  }
+  input{
+    border-radius:  5px 0 0 5px;
+    font-size: larger;
+    color: #0a1128;
+    border: none;
+  }
