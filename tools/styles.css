@@ -4,7 +4,6 @@
 }
 
 body {
-  
   margin-top: 20px;
   border-top: solid 2px;
   background-color: #0a1128;
@@ -16,7 +15,7 @@ body {
   border: solid yellowgreen;
 }
 .display{
-  border-radius: 5px;
+
   display: inline-flex;
   background: #034078;
 }
@@ -25,7 +24,6 @@ svg{
   margin: 2px;
 }
 input{
-  border-radius:  5px 0 0 5px;
   font-size: larger;
   color: #0a1128;
   border: none;
