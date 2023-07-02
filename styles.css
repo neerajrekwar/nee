@@ -13,7 +13,7 @@ body{
 }
 header{
   height: 10vh;
-  border: solid rgb(216, 95, 58);
+  /* border: solid rgb(216, 95, 58); */
   display: flex;
   justify-content: space-between;
   align-items: center;
