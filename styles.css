@@ -2,9 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* font-family: 'Alata', sans-serif; */
+  font-family: 'Alata', sans-serif;
   /* font-family: 'Arvo', serif; */
-  font-family: 'Barriecito', cursive;
+  /* font-family: 'Barriecito', cursive; */
   font-size: 16px;
   font-weight: 400;
   color: rgb(0, 0, 0);
@@ -21,6 +21,7 @@ header {
   align-content: center;
 }
 .logo {
+  margin-left: 1.0rem;
   /* font-family: 'Barriecito', cursive; */
 
   text-decoration: none;
