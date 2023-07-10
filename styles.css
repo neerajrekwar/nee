@@ -26,6 +26,13 @@ header {
 
   text-decoration: none;
 }
+.link{
+  color: black;
+}
+.header  {
+  display: flex;
+  align-items: baseline;
+}
 ul {
   text-decoration: none;
   list-style: none;
@@ -38,6 +45,7 @@ ul a {
 
 .link:hover {
   color: rgb(10, 136, 77);
+  text-decoration: none;
 }
 
 .carousel-inner > .item > img,
