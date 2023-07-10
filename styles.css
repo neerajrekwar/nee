@@ -40,3 +40,8 @@ ul a {
   color: rgb(10, 136, 77);
 }
 
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    max-width: 100%;
+    margin: auto;
+  }
