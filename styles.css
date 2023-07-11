@@ -12,21 +12,19 @@
 body {
   background: rgb(255, 255, 255);
 }
-header {
+header  {
   height: 10vh;
-  /* border: solid rgb(216, 95, 58); */
+  border: solid rgb(216, 95, 58);
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  align-content: center;
+  justify-items: baseline;
 }
-.logo {
-  margin-left: 1.0rem;
+.logo {margin-top: 20px;
   /* font-family: 'Barriecito', cursive; */
-
   text-decoration: none;
 }
 .link{
+  border: 2px solid yellowgreen;
   color: black;
 }
 .header  {
