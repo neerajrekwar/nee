@@ -2,18 +2,22 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Alata', sans-serif;
+  /* font-family: 'Adamina', serif; */
+  /* font-family: 'Alata', sans-serif; */
+  font-family: 'Alatsi', sans-serif;
   /* font-family: 'Arvo', serif; */
   /* font-family: 'Barriecito', cursive; */
   font-size: 16px;
   font-weight: 400;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 body {
   background: rgb(255, 255, 255);
 }
-header  {
-  height: 10vh;
+header {
+  color: #fff;
+  background-color: #353535;
+  height: 6vh;
   /* border: solid rgb(216, 95, 58); */
   display: flex;
   justify-content: space-between;
@@ -21,35 +25,39 @@ header  {
 }
 .logo {
   margin-top: 20px;
-  font-family: 'Barriecito', cursive;
   text-decoration: none;
 }
-.link{
+@import url('https://fonts.googleapis.com/css2?family=Adamina&family=Alata&family=Alatsi&family=Arvo&family=Barriecito&display=swap');
+
+.link {
+  font-size: 1.6rem;
   /* border: 2px solid yellowgreen; */
-  color: black;
 }
-.header  {
+.header {
   display: flex;
   justify-items: center;
 }
 ul {
-  margin: .7rem  0;
+  margin: 0.7rem 0;
   text-decoration: none;
   list-style: none;
 }
+
 ul a {
+  color: #fff;
   margin: 0 7px;
   text-decoration: none;
   list-style: none;
 }
 
 .link:hover {
-  color: rgb(10, 136, 77);
+  color: rgb(255, 242, 60);
+  transition: all .1s ease-out;
   text-decoration: none;
 }
 
 .carousel-inner > .item > img,
-  .carousel-inner > .item > a > img {
-    max-width: 100%;
-    margin: auto;
-  }
+.carousel-inner > .item > a > img {
+  max-width: 100%;
+  margin: auto;
+}
