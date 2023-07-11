@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #2B2D42;
+}
+:root{
+  --primary-color: #F8F32B;
+  --scondery-color: #8D99AE;
+}
+.title{
+  background-color: var(--primary-color);
+}
