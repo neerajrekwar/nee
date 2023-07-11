@@ -294,3 +294,18 @@ a:hover {
     transform: rotate(10deg);
   }
 } */
+
+@import url('https://fonts.googleapis.com/css2?family=Alatsi&display=swap');
+
+* {
+  
+  font-family: 'Alatsi', sans-serif;
+}
+body{
+  margin: 0 auto;
+  width: 480px;
+}
+.result__viewbox{
+  max-width: m;
+  background-color: #F8F32B;
+}
