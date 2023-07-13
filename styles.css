@@ -18,63 +18,23 @@ body {
   color: aliceblue;
   background: var(--thirdly-background-color);
 }
-
-
-header {
-  height: 53px;
-  color: #000;
-  /* background-color: #353535; */
-  /* border: solid rgb(216, 95, 58); */
+header{
+  border: solid yellow;
 }
-a{
-  text-decoration: none;
-
+nav{
+  border: solid salmon;
 }
-.navbar {
-  width: 100%;
+.header{
+}
+.navbar{
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
-  /* border: solid greenyellow; */
-}
-.logo {
-  text-decoration: none;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Adamina&family=Alata&family=Alatsi&family=Arvo&family=Barriecito&display=swap');
-
-.link {
-  /* margin-top: 15px; */
-  padding: 5px;
-  color: #fff;
-  font-size: 1.6rem;
-  /* border: 2px solid yellowgreen; */
-}
-ul {
-  text-decoration: none;
-  list-style: none;
-}
-
-ul a {
-  text-decoration: none;
-}
-
-.link:hover {
-  color: var(--primary-background-color);
-  transition: all .1s ease-out;
-  text-decoration: none;
-}
-
-.carousel-inner > .item > img,
-.carousel-inner > .item > a > img {
-  max-width: 100%;
-  margin: auto;
+  align-items: center;
 }
 .home{
   height: 100vh;
-  /* border: solid 2px; */
-  /* margin: 20px; */
   display: flex;
   align-items: center;
   padding: 0 10%;
 }
+
