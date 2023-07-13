@@ -1,5 +1,5 @@
 * {
-  margin: 0;
+  margin: 10px;
   padding: 0;
   box-sizing: border-box;
   /* font-family: 'Alata', sans-serif; */
@@ -12,20 +12,17 @@
   --secondry-background-color: #2A628F;
   --thirdly-background-color: #13293D;
   --text-color: #16324F;
-  --text-color: #18435A;
+  --secondry-text-color: #18435A;
 
 }
 body {
   background: var(--thirdly-background-color);
 }
-.main-container{
-  height: 100vh;
-  border: solid 2px;
-  margin: 20px;
-}
+
+
 header {
-  margin: 0 30px 0 30px;
-  height: 6vh;
+
+  height: 30px;
   color: #000;
   /* background-color: #353535; */
   /* border: solid rgb(216, 95, 58); */
@@ -33,35 +30,34 @@ header {
   justify-content: space-between;
   justify-items: baseline;
 }
+a{
+  text-decoration: none;
+  color: #000;
+}
 .logo {
-  margin-top: 20px;
   text-decoration: none;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Adamina&family=Alata&family=Alatsi&family=Arvo&family=Barriecito&display=swap');
 
 .link {
+  /* margin-top: 15px; */
+  padding: 5px;
+  color: #fff;
   font-size: 1.6rem;
   /* border: 2px solid yellowgreen; */
 }
-.header {
-  display: flex;
-  justify-items: center;
-}
 ul {
-  margin: 0.7rem 0;
   text-decoration: none;
   list-style: none;
 }
 
 ul a {
-  margin: 0 7px;
   text-decoration: none;
-  list-style: none;
 }
 
 .link:hover {
-  color: rgb(255, 242, 60);
+  color: var(--primary-background-color);
   transition: all .1s ease-out;
   text-decoration: none;
 }
@@ -70,4 +66,12 @@ ul a {
 .carousel-inner > .item > a > img {
   max-width: 100%;
   margin: auto;
+}
+.home{
+  height: 100vh;
+  /* border: solid 2px; */
+  /* margin: 20px; */
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
 }
