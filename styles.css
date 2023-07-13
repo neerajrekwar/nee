@@ -2,22 +2,32 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* font-family: 'Adamina', serif; */
   /* font-family: 'Alata', sans-serif; */
   font-family: 'Alatsi', sans-serif;
-  /* font-family: 'Arvo', serif; */
-  /* font-family: 'Barriecito', cursive; */
-  font-size: 16px;
+  color: #000;
   font-weight: 400;
-  color: rgb(255, 255, 255);
+}
+:root{
+  --primary-background-color: #3E92CC;
+  --secondry-background-color: #2A628F;
+  --thirdly-background-color: #13293D;
+  --text-color: #16324F;
+  --text-color: #18435A;
+
 }
 body {
-  background: rgb(255, 255, 255);
+  background: var(--thirdly-background-color);
+}
+.main-container{
+  height: 100vh;
+  border: solid 2px;
+  margin: 20px;
 }
 header {
-  color: #fff;
-  background-color: #353535;
+  margin: 0 30px 0 30px;
   height: 6vh;
+  color: #000;
+  /* background-color: #353535; */
   /* border: solid rgb(216, 95, 58); */
   display: flex;
   justify-content: space-between;
@@ -27,6 +37,7 @@ header {
   margin-top: 20px;
   text-decoration: none;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Adamina&family=Alata&family=Alatsi&family=Arvo&family=Barriecito&display=swap');
 
 .link {
@@ -44,7 +55,6 @@ ul {
 }
 
 ul a {
-  color: #fff;
   margin: 0 7px;
   text-decoration: none;
   list-style: none;
