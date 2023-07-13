@@ -4,7 +4,6 @@
   box-sizing: border-box;
   /* font-family: 'Alata', sans-serif; */
   font-family: 'Alatsi', sans-serif;
-  color: #000;
   font-weight: 400;
 }
 :root{
@@ -16,6 +15,7 @@
 
 }
 body {
+  color: aliceblue;
   background: var(--thirdly-background-color);
 }
 
