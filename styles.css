@@ -1,5 +1,5 @@
 * {
-  margin: 10px;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
   /* font-family: 'Alata', sans-serif; */
@@ -21,11 +21,10 @@ body {
 
 
 header {
-
   height: 30px;
   color: #000;
   /* background-color: #353535; */
-  /* border: solid rgb(216, 95, 58); */
+  border: solid rgb(216, 95, 58);
   display: flex;
   justify-content: space-between;
   justify-items: baseline;
@@ -33,6 +32,9 @@ header {
 a{
   text-decoration: none;
   color: #000;
+}
+.navbar{
+  border: solid greenyellow;
 }
 .logo {
   text-decoration: none;
