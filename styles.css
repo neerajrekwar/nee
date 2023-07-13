@@ -21,20 +21,21 @@ body {
 
 
 header {
-  height: 30px;
+  height: 53px;
   color: #000;
   /* background-color: #353535; */
-  border: solid rgb(216, 95, 58);
-  display: flex;
-  justify-content: space-between;
-  justify-items: baseline;
+  /* border: solid rgb(216, 95, 58); */
 }
 a{
   text-decoration: none;
-  color: #000;
+
 }
-.navbar{
-  border: solid greenyellow;
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  /* border: solid greenyellow; */
 }
 .logo {
   text-decoration: none;
