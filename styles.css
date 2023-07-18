@@ -19,14 +19,14 @@ body {
   background: var(--thirdly-background-color);
 }
 header{
-  border: solid ;
+  /* border: solid ; */
   
 }
 nav{
   display: flex;
   justify-content: space-between;
 
-  border: solid salmon;
+  /* border: solid salmon; */
 }
 li  {
   list-style: none;
