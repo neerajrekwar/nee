@@ -30,7 +30,7 @@ nav{
 }
 li  {
   list-style: none;
-  margin: 10px;
+  margin: 5px;
   text-decoration: none;
 }
 ul {
@@ -38,7 +38,7 @@ ul {
 }
 
 .link{
-  margin: 10px;
+  margin: 5px;
   text-decoration: none;
 }
 
@@ -51,4 +51,10 @@ ul {
 .link:hover{
   color: aqua;
   text-decoration: none;
+}
+
+@media (max-width: 400px) {
+  nav {
+    display: none;
+  }
 }
