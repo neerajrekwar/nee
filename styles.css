@@ -57,11 +57,12 @@ ul {
 /* border: solid; */
   height: 50px;
 }
-.btn-connect {
-  background-color: #29363f;
-  border-radius: 17px;
-  color: #3E92CC;
-  /* border: solid; */
+#btn-connectk {
+  background-color: #034606;
+  /* border-radius: 17px; */
+  color: #ffffff;
+  border: solid;
+  height: 200px;
 }
 
 @media (max-width: 400px) {
