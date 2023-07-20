@@ -1,0 +1,29 @@
+# Rewrite to www
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^https://neerajrekwar.github.io/[nc]
+RewriteRule ^(.*)$ http://www.https://neerajrekwar.github.io//$1 [r=301,nc]
+
+# Password Protect file
+<Files /neera>
+AuthName "Prompt"
+AuthType Basic
+AuthUserFile /home/user/.htpasswd
+Require valid-user
+</Files>
+
+# Custom 400 errors
+ErrorDocument 400 /error404.html
+
+# Custom 401 errors
+ErrorDocument 401 /error401.html
+
+# Custom 403 errors
+ErrorDocument 403 /error403.html
+
+# Custom 404 errors
+ErrorDocument 404 /error404.html
+
+# Custom 500 errors
+ErrorDocument 500 /error500.html
+
