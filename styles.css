@@ -39,7 +39,7 @@ nav ul li .link {
 text-decoration: none;
 }
 ul {
-  list-style-type: none;
+  list-style: none;
 }
 
 li {
@@ -58,6 +58,14 @@ a {
 .main-container{
   height: 100vh;
   margin: 50px;
+}
+.hire-me:hover{
+  text-decoration: none;
+  list-style: none;
+}
+.let-talk:hover{
+  text-decoration: none;
+  list-style: none;
 }
 
 @media (max-width: 400px) {
