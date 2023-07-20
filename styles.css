@@ -16,8 +16,9 @@
 
 }
 body {
-  color: aliceblue;
-  background: var(--thirdly-background-color);
+  color: rgb(16, 33, 48);
+  /* background: var(--thirdly-background-color); */
+  background: linear-gradient(270deg, #EBF4F5ff, #E2ECF2ff, #D9E5EEff, #D0DDEBff, #C7D5E7ff, #BECEE4ff, #B5C6E0ff);;
 }
 header{
   /* border: solid ; */
@@ -44,6 +45,7 @@ ul {
 }
 
 .main-container{
+
   height: 100vh;
   display: flex;
   align-items: center;
