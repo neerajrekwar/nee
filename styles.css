@@ -59,7 +59,9 @@ ul {
   height: 50px;
 }
 span a {
-  height: 10.5vh;
+  width: max-content;
+  max-height: max-content;
+  height: 120px;
 }
 
 @media (max-width: 400px) {
