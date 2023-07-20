@@ -21,21 +21,19 @@ body {
   background: linear-gradient(270deg, #EBF4F5ff, #E2ECF2ff, #D9E5EEff, #D0DDEBff, #C7D5E7ff, #BECEE4ff, #B5C6E0ff);;
 }
 header{
-  border: solid ;
-  
+  border: solid ;  
 }
-nav ul {
+nav {
   /* background-color: #f2f2f2; */
-
-  display: inline-flex;
+  
+  display: flex;
   justify-items: center;
-  /* border: 2px solid palegreen; */
+  border: 2px solid palegreen;
   justify-content: space-between;
   align-items: center;
 }
-ul li {
+ul {
   display: flex;
-  justify-content: space-around;
 }
 nav ul li .link {
 text-decoration: none;
