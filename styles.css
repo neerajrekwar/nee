@@ -21,50 +21,41 @@ body {
   background: linear-gradient(270deg, #EBF4F5ff, #E2ECF2ff, #D9E5EEff, #D0DDEBff, #C7D5E7ff, #BECEE4ff, #B5C6E0ff);;
 }
 header{
-  /* border: solid ; */
+  border: solid ;
   
 }
-nav{
-  display: flex;
-  justify-content: space-between;
+nav ul {
+  /* background-color: #f2f2f2; */
 
-  /* border: solid salmon; */
+  display: inline-flex;
+  justify-items: center;
+  /* border: 2px solid palegreen; */
+  justify-content: space-between;
+  align-items: center;
 }
-li  {
-  list-style: none;
-  margin: 5px;
-  text-decoration: none;
+ul li {
+  display: flex;
+  justify-content: space-around;
+}
+nav ul li .link {
+text-decoration: none;
 }
 ul {
-  display: flex;
+  list-style-type: none;
 }
 
-.link{
+li {
+  /* display: inline-block; */
   margin: 5px;
+}
+
+a {
   text-decoration: none;
 }
 
-
-.main-container{
-
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0 10%;
-}
-.link:hover{
-  text-decoration: none;
-}
-
-.btn-box{
-/* border: solid; */
-  height: 50px;
-}
-span a {
-  width: max-content;
-  max-height: max-content;
-  height: 120px;
+.link:hover {
+  background-color: #5fd36c;
+  color: #fff;
 }
 
 @media (max-width: 400px) {
