@@ -60,6 +60,15 @@ a {
   margin: 50px;
 }
 .hire-me:hover{
+
+  text-decoration: none;
+  list-style: none;
+}
+.main-container .home  .hire-me {
+  text-decoration: none;
+  list-style: none;
+}
+.main-container .home  .let-talk {
   text-decoration: none;
   list-style: none;
 }
