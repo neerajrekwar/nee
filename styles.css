@@ -76,6 +76,9 @@ a {
   text-decoration: none;
   list-style: none;
 }
+.auto-type{
+  font-size: 28px;
+}
 
 @media (max-width: 400px) {
   nav {
