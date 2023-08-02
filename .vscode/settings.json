@@ -1,5 +1,6 @@
 {
     "workbench.activityBar.iconClickBehavior": "toggle",
     "workbench.preferredHighContrastColorTheme": "Abyss",
-    "workbench.preferredDarkColorTheme": "Visual Studio Dark"
+    "workbench.preferredDarkColorTheme": "Visual Studio Dark",
+    "liveServer.settings.wsServiceName": "/"
 }
