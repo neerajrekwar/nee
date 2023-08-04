@@ -21,6 +21,9 @@ body {
   /* background: var(--thirdly-background-color); */
   background: linear-gradient(270deg, #EBF4F5ff, #E2ECF2ff, #D9E5EEff, #D0DDEBff, #C7D5E7ff, #BECEE4ff, #B5C6E0ff);;
 }
+header {
+  height: max-content;
+}
 nav {
   /* background-color: #f2f2f2; */
   
