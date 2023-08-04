@@ -2,5 +2,8 @@
     "workbench.activityBar.iconClickBehavior": "toggle",
     "workbench.preferredHighContrastColorTheme": "Abyss",
     "workbench.preferredDarkColorTheme": "Visual Studio Dark",
-    "liveServer.settings.wsServiceName": "/"
+    "liveServer.settings.wsServiceName": "/",
+    "githubPullRequests.ignoredPullRequestBranches": [
+        "neej"
+    ]
 }
