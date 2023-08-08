@@ -12,7 +12,6 @@
   --box-color: #737373;
   --background: #A6A6A6;
   --background-body: #D9D9D9;
-
 }
 body {
   color: var(--background-body);
@@ -49,7 +48,7 @@ a {
 }
 
 .link:hover {
-  background-color: #5fd36c;
+  background-color: var(--text);
   color: #fff;
 }
 .main-container{
