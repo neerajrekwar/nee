@@ -16,7 +16,7 @@
 body {
   color: var(--background-body);
   /* background: var(--thirdly-background-color); */
-  background: linear-gradient(270deg, #EBF4F5ff, #E2ECF2ff, #D9E5EEff, #D0DDEBff, #C7D5E7ff, #BECEE4ff, #B5C6E0ff);;
+  background: linear-gradient(270deg, #D9D9D9, #D8D8D8, #D7D7D7, #D6D6D6, #D5D5D5, #D4D4D4, #D3D3D3);;
 }
 header {
   height: max-content;
