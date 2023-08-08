@@ -33,7 +33,7 @@ header{
 }
 header nav {
   color: #fff;
-  display: flex;
+  display: none;
   justify-items: left;
   /* border: 2px solid palegreen; */
   justify-content: space-between;
