@@ -6,6 +6,7 @@
   font-family: 'Alata', sans-serif;
   font-weight: 400;
   font-size: 16px;
+  text-decoration: none;
 }
 :root {
   --text: #404040;
@@ -30,10 +31,29 @@ body {
 header nav {
   color: #fff;
   display: flex;
-  border: 2px solid palegreen;
-  justify-content: space-between;
-  justify-items: center;
+<<<<<<< HEAD
+  justify-items: left;
+  /* border: 2px solid palegreen; */
 }
+ul {
+  display: flex;
+=======
+  border: 2px solid palegreen;
+>>>>>>> f90005ff2ed59e7470df644c42c1e402889d9102
+  justify-content: space-between;
+<<<<<<< HEAD
+  align-items: center;
+  list-style: none;
+=======
+  justify-items: center;
+>>>>>>> f90005ff2ed59e7470df644c42c1e402889d9102
+}
+<<<<<<< HEAD
+}
+nav ul li .link {
+text-decoration: none;
+}
+=======
 ul {
   border: 2px solid rebeccapurple;
   list-style: none;
@@ -49,6 +69,7 @@ nav ul li .link{
   justify-content: center;
 }
 
+>>>>>>> f90005ff2ed59e7470df644c42c1e402889d9102
 li {
   margin: 20px;
   border: 2px tomato;
