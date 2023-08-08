@@ -1,7 +1,6 @@
 
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +11,14 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js">
     </script>
-    <title>barcode</title>
+    <title>BarCode Generate</title>
+<style>
+    .BarCodeBox{
+        height: 100vh;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+</style>
 </head>
 
 <body>
@@ -25,7 +31,7 @@
             </ul>
         </nav>
     </header> -->
-    <div>
+    <div class="barCodeBox">
         <input type="text" value="neerajrekwar" name="txt_input" id="txt_input">
         <button id="btn_generate">Generate barcode</button>
         <br><br>
