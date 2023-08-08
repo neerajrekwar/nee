@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   /* font-family: 'Alata', sans-serif; */
-  font-family: 'Alata', sans-serif;
+  font-family: "Alata", sans-serif;
   font-weight: 400;
   font-size: 16px;
   text-decoration: none;
@@ -44,7 +44,7 @@ ul {
   justify-items: center;
 }
 nav ul li .link {
-text-decoration: none;
+  text-decoration: none;
 }
 ul {
   border: 2px solid rebeccapurple;
@@ -54,7 +54,7 @@ ul {
   justify-items: baseline;
   justify-content: center;
 }
-nav ul li .link{
+nav ul li .link {
   display: flex;
   text-decoration: none;
   justify-items: center;
@@ -71,7 +71,7 @@ li {
   justify-content: center;
 }
 
-.link{
+.link {
   text-decoration: none;
 }
 
@@ -110,7 +110,7 @@ li {
   width: 66px;
 }
 @media (max-width: 400px) {
-  nav {
+  header {
     display: none;
   }
 }
