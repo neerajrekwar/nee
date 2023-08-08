@@ -21,15 +21,17 @@ body {
 header {
   height: max-content;
 }
-nav {
+header nav {
   display: flex;
   justify-items: left;
   /* border: 2px solid palegreen; */
-  justify-content: space-between;
-  align-items: center;
+  
 }
 ul {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+
 }
 nav ul li .link {
 text-decoration: none;
