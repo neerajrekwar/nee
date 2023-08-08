@@ -10,4 +10,4 @@
 // }
 
 
-const insteadIAmOk = new  Accepted("asal mein","ek tarfa",["..."])
+// const insteadIAmOk = new  Accepted("asal mein","ek tarfa",["..."])
