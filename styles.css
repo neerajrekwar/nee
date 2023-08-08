@@ -28,6 +28,9 @@ body {
     #d3d3d3
   );
 }
+header{
+  display: none;
+}
 header nav {
   color: #fff;
   display: flex;
