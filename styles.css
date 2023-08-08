@@ -46,7 +46,6 @@ ul {
 nav ul li .link {
 text-decoration: none;
 }
-=======
 ul {
   border: 2px solid rebeccapurple;
   list-style: none;
@@ -61,8 +60,6 @@ nav ul li .link{
   justify-items: center;
   justify-content: center;
 }
-
->>>>>>> f90005ff2ed59e7470df644c42c1e402889d9102
 li {
   margin: 20px;
   border: 2px tomato;
