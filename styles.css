@@ -8,13 +8,11 @@
   font-size: 16px;
 }
 :root{
-  --primary-background-color: #3E92CC;
-  --secondry-background-color: #2A628F;
-  --thirdly-background-color: #13293D;
-  --text-color: #16324F;
-  --secondry-text-color: #18435A;
-  --secondry-ftext-color: #3f6e88;
-
+  --text: #404040;
+  --box-color: #737373;
+  --backgound-body: #A6A6A6;
+  --background: #D9D9D9;
+  
 }
 body {
   color: rgb(16, 33, 48);
