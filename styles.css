@@ -31,24 +31,17 @@ body {
 header nav {
   color: #fff;
   display: flex;
-<<<<<<< HEAD
+
   justify-items: left;
   /* border: 2px solid palegreen; */
 }
 ul {
   display: flex;
-=======
   border: 2px solid palegreen;
->>>>>>> f90005ff2ed59e7470df644c42c1e402889d9102
   justify-content: space-between;
-<<<<<<< HEAD
   align-items: center;
   list-style: none;
-=======
   justify-items: center;
->>>>>>> f90005ff2ed59e7470df644c42c1e402889d9102
-}
-<<<<<<< HEAD
 }
 nav ul li .link {
 text-decoration: none;
