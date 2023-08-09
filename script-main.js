@@ -1,5 +1,4 @@
 // // Javascript
-import "./styes.css"
 
 window.onresize = screen;
 window.onload = screen;
