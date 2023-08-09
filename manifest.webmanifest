@@ -2,8 +2,8 @@
     "theme_color": "#737373",
     "background_color": "#d9d9d9",
     "display": "browser",
-    "scope": "/info",
-    "start_url": "/https://www.neerajrekwar.github.io/",
+    "scope": "/",
+    "start_url": "/...about.html/",
     "name": "Neeraj_Rekwar",
     "short_name": "neerajrekwar",
     "icons": [
