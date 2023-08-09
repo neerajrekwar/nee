@@ -1,13 +1,14 @@
 // // Javascript
-// window.onresize = screen;
-// window.onload = screen;
+import "./styes.css"
 
-// function screen() {
-//   myWidth = window.innerWidth
-//   myheight = window.innerHeight
+window.onresize = screen;
+window.onload = screen;
 
-// document.getElementById('full-size-h').innerHTML = 'Screen: ' + myWidth + "x" + myheight + ' px' ;
-// }
+function screen() {
+  myWidth = window.innerWidth;
+  myHeight = window.innerHeight;
 
+document.getElementById("screen-fit").innerHTML = 'Screen: ' + myWidth + "x" + myHeight + ' px';
+}
 
 // const insteadIAmOk = new  Accepted("asal mein","ek tarfa",["..."])
