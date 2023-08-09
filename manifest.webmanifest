@@ -39,3 +39,16 @@
     ],
     "description": "I am a creative problem solver with a keen eye for detail, always seeking innovative ways to improve campaign performance and deliver exceptional results."
 }
+{
+    …
+    "icons": [
+      …
+      {
+        "src": "/images/photos/maskable_icon_x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any maskable"
+      }
+    ]
+    …
+  }
