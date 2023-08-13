@@ -109,7 +109,7 @@ li {
 .btn{
   text-align: center;
   color: #d4d4d4;
-  background-color: #404040;
+  background-color: var(--box-color);
 }
 .profile-img {
   border-radius: 50%;
