@@ -117,7 +117,7 @@ li {
   width: 66px;
 }
 .home .noich-down{
-  position: relative;
+  position: fixed;
   top: 0; 
   right: 0;
 }
