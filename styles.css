@@ -119,7 +119,6 @@ li {
 .icon{
   color: #404040;
 }
-}
 @media (max-width: 400px) {
   header {
     display: none;
