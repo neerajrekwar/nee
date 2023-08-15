@@ -126,6 +126,7 @@ footer{
 }
 .cyrts{
   font-size: smaller;
+  color: var(--text);
 }
 /* footer end */
 
