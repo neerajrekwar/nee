@@ -5,5 +5,5 @@
 #RewriteRule ^(.*)$ https://www.neerajrekwar.github.io/$1 [r=301,nc]
 
 RewriteEngine on
-RewriteCond %{HTTP_HOST} ^example.com [NC]
-RewriteRule ^(.*)$ https://www.example.com/$1 [L,R=301,NC]
+RewriteCond %{HTTP_HOST} ^neerajrekwar.github.io [NC]
+RewriteRule ^(.*)$ https://www.neerajrekwar.github.io/$1 [L,R=301,NC]
