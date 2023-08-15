@@ -116,10 +116,9 @@ li {
   height: 66px;
   width: 66px;
 }
-.home .noich-down{
-  position: fixed;
-  top: auto; 
-  right: 10px;
+.icon{
+  color: #404040;
+}
 }
 @media (max-width: 400px) {
   header {
