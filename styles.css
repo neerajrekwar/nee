@@ -119,6 +119,13 @@ li {
 .icon{
   color: #404040;
 }
+/* footer start */
+footer{
+  display: flex;
+  text-align: center;
+}
+/* footer end */
+
 @media (max-width: 400px) {
   header {
     display: none;
