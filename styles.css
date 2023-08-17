@@ -125,7 +125,7 @@ footer{
   text-align: center;
 }
 .cyrts{
-  font-size: small;
+  font-size: 1rem;
   color: var(--text);
 }
 /* footer end */
