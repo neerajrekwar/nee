@@ -48,8 +48,9 @@ ul {
 nav ul li .link {
   display: flex;
   text-decoration: none;
-  justify-items: center;
-  justify-content: center;
+  justify-items: baseline;
+  justify-content: space-between;
+  align-items: center;
 }
 li {
   margin: 20px;
