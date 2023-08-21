@@ -52,11 +52,11 @@ nav ul li .link {
   justify-content: center;
 }
 li {
-  margin: 20px;
-  border: 2px tomato;
+  margin: 0;
+  /* border: 2px tomato; */
   height: 40px;
-  background-color: #737373;
-  color: #ffffff;
+  /* background-color: #737373; */
+  /* color: #ffffff; */
   display: flex;
   justify-items: center;
   justify-content: center;
