@@ -27,18 +27,15 @@ body {
     #d3d3d3
   );
 }
-header{
+header {
   /* display: none; */
-} 
-nav{
-  
+}
+nav {
 }
 header nav {
   color: #fff;
-  /* display: none; */
-  justify-items: right;
-  /* border: 2px solid palegreen; */
-  justify-content: space-between;
+  display: flex;
+  justify-content: center;
 }
 ul {
   display: flex;
@@ -103,7 +100,7 @@ li {
   font-size: 28px;
   color: var(--text);
 }
-.btn{
+.btn {
   text-align: center;
   color: #d4d4d4;
   background-color: #404040;
@@ -113,15 +110,15 @@ li {
   height: 66px;
   width: 66px;
 }
-.icon{
+.icon {
   color: #404040;
 }
 /* footer start */
-footer{
+footer {
   display: flex;
   text-align: center;
 }
-.cyrts{
+.cyrts {
   font-size: 1rem;
   color: var(--text);
 }
