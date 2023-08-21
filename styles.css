@@ -5,7 +5,6 @@
   font-family: "Alata", sans-serif;
   font-weight: 400;
   font-size: 16px;
-  text-decoration: none;
   scroll-behavior: smooth;
 }
 :root {
@@ -34,28 +33,17 @@ header{
 header nav {
   color: #fff;
   /* display: none; */
-  justify-items: left;
+  justify-items: right;
   /* border: 2px solid palegreen; */
   justify-content: space-between;
 }
 ul {
   display: flex;
-  border: 2px solid palegreen;
+  /* border: 2px solid palegreen; */
   justify-content: space-between;
   align-items: center;
   list-style: none;
   justify-items: center;
-}
-nav ul li .link {
-  text-decoration: none;
-}
-ul {
-  border: 2px solid rebeccapurple;
-  list-style: none;
-  display: inline-flex;
-  align-items: center;
-  justify-items: baseline;
-  justify-content: center;
 }
 nav ul li .link {
   display: flex;
