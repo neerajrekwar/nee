@@ -49,8 +49,13 @@ nav ul li .link {
   display: flex;
   text-decoration: none;
   justify-items: baseline;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  /* border: 2px solid; */
+  margin: 15px;
+  border-radius: 50px;
+  height: 45px;
+  width: 83px;
 }
 li {
   margin: 20px;
