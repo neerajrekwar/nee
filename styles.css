@@ -63,12 +63,13 @@ li {
 }
 
 .link {
-  text-decoration: none;
+  color: #fff;
 }
 
 .link:hover {
+  text-decoration: none;
   background-color: var(--text);
-  color: #fff;
+  
 }
 .main-container {
   height: 100vh;
