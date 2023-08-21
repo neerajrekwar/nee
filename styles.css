@@ -52,8 +52,9 @@ nav ul li .link {
   justify-content: center;
   align-items: center;
   /* border: 2px solid; */
-  margin: 15px;
-  border-radius: 50px;
+  margin: 0px;
+  padding: 0;
+  /* border-radius: 50px; */
   height: 45px;
   width: 83px;
 }
