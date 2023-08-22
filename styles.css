@@ -40,10 +40,9 @@ header nav {
 ul {
   display: flex;
   /* border: 2px solid palegreen; */
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
+  align-items: baseline;
   list-style: none;
-  justify-items: center;
 }
 nav ul li .link {
   display: flex;
