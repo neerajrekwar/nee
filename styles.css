@@ -27,8 +27,8 @@ body {
     #d3d3d3
   );
 }
-header {
-  /* display: none; */
+/* header {
+ 
 }
 nav {
 }
@@ -36,7 +36,7 @@ header nav {
   color: #fff;
   display: flex;
   justify-content: center;
-}
+} */
 ul {
   display: flex;
   /* border: 2px solid palegreen; */
@@ -59,7 +59,7 @@ nav ul li .link {
   width: 83px;
 }
 li {
-  margin: 20px;
+  margin: 5px;
   /* border: 2px tomato; */
   height: 40px;
   /* background-color: #737373; */
