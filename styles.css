@@ -126,7 +126,7 @@ footer {
 
 /* clsasses defined  */
 .foot{
-  color: tomato;
+  /* color: tomato; */
 }
 
 @media (max-width: 400px) {
