@@ -1,3 +1,2 @@
-RewriteCond %{HTTPS} off
-RewriteCond %{HTTP_HOST} ^www\.neeerajrekwar.github(.io)$ [NC]
-RewriteRule ^(.*)$ https://neerajekwra.github.io/$1 [R=301,L]
+
+
