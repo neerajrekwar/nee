@@ -1,4 +1,1 @@
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^www\.
-RewriteCond %{HTTPS}s ^on(s)|offs
-RewriteRule ^ http%1://neerajrekwar.github.io [NE,L,R]
+
