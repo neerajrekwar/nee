@@ -1,2 +1,8 @@
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP_HOST} !^www\.neerajrekwar.github(.io)$ [NC]
+RewriteRule ^(.*)$ http://www.neerajrekwar.github.io/$1 [R=301,L]
 
+RewriteCond %{HTTPS} on
+RewriteCond %{HTTP_HOST} !^www\.neerajrewkar.github(.io)$ [NC]
+RewriteRule ^(.*)$ https://www.neerajrekwar.github.io/$1 [R=301,L]
 
