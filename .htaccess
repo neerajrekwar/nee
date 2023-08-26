@@ -1,1 +1,4 @@
 
+//Rewrite to www
+// RewriteCond %{HTTP_HOST} ^www\.neerajrekwar.github\.com [NC]
+// RewriteRule ^(.*)$ https://neerajrekwra.github.io/$1 [L,R=301].
