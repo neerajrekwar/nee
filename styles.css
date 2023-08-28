@@ -221,8 +221,30 @@ input[type="range"]:focus::-moz-range-thumb{
 /* ran pass end */
 /* Ran pass end */
 
-@media (max-width: 400px) {
+@media screen and (max-width: 767px) {
+  body{
+    
+  }
+  nav {
+    display: none;
+    font-size: 2em 100px / 1em 50px;
+  }
   header {
     display: none;
   }
 }
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  body {
+    background-color: #383F51;
+    color: #DDDBF1;
+  }
+  
+}
+
+@media screen and (min-width: 1024px) {
+  body{
+    background-color: #F5F8DE;
+    color: #0E0F19;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
