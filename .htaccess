@@ -31,4 +31,52 @@ RewriteBase /
     ExpiresByType image/svg+xml "access plus 1 year"
 </IfModule>
 
+# Enable mod_rewrite and set the base for relative paths
+RewriteEngine On
+RewriteBase /
+
+# Redirect www to non-www (or vice versa)
+# Replace "example.com" with your domain name
+RewriteCond %{HTTP_HOST} ^www\.neerajrekwar\.github\.io [NC]
+RewriteRule ^(.*)$ http://neerajrekwar.github.io/$1 [L,R=301]
+
+# Force HTTPS for secure connections
+# Uncomment these lines if you have an SSL certificate
+# RewriteCond %{HTTPS} !=on
+# RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Set default index file (e.g., index.html, index.php)
+DirectoryIndex index.html index.php
+
+# Handle custom error pages
+# ErrorDocument 404 /404.html
+
+# Disable server signature
+ServerSignature Off
+
+# Block directory listing
+Options -Indexes
+
+# Enable GZIP compression for certain file types
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/plain
+    AddOutputFilterByType DEFLATE text/html
+    AddOutputFilterByType DEFLATE text/xml
+    AddOutputFilterByType DEFLATE text/css
+    AddOutputFilterByType DEFLATE application/xml
+    AddOutputFilterByType DEFLATE application/xhtml+xml
+    AddOutputFilterByType DEFLATE application/rss+xml
+    AddOutputFilterByType DEFLATE application/javascript
+    AddOutputFilterByType DEFLATE application/x-javascript
+</IfModule>
+
+# Set expiration headers for certain file types
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType text/css "access plus 1 week"
+    ExpiresByType application/javascript "access plus 1 week"
+    ExpiresByType image/jpeg "access plus 2 weeks"
+    ExpiresByType image/png "access plus 2 weeks"
+    ExpiresByType image/gif "access plus 2 weeks"
+</IfModule>
 
