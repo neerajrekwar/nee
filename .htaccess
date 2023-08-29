@@ -61,6 +61,8 @@ DirectoryIndex index.html index.php
 
  ErrorDocument 500 /error500.html
 
+ ErrorDocument 403 "Sorry, can't allow you access today"
+
 # Disable server signature
 ServerSignature Off
 
