@@ -37,8 +37,13 @@ RewriteBase /
 
 # Redirect www to non-www (or vice versa)
 # Replace "example.com" with your domain name
-RewriteCond %{HTTP_HOST} ^www\.neerajrekwar\.github\.io [NC]
-RewriteRule ^(.*)$ http://neerajrekwar.github.io/$1 [L,R=301]
+# RewriteCond %{HTTP_HOST} ^www\.neerajrekwar\.github\.io [NC]
+# RewriteRule ^(.*)$ http://neerajrekwar.github.io/$1 [L,R=301]
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [L,R=301]
+
 
 # Force HTTPS for secure connections
 # Uncomment these lines if you have an SSL certificate
