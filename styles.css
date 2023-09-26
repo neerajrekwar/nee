@@ -30,6 +30,8 @@ header{
 nav a {
   text-decoration: none;
   color: #404040;
+  margin: 10px;
+  height: max-content;
 }
 
 ul {
