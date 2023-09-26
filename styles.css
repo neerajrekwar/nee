@@ -18,6 +18,9 @@
 body {
   border: #dfb26f;
 }
+main{
+  margin: 10px;
+}
 header{
   margin: 5px;
 }
