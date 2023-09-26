@@ -26,11 +26,6 @@ body {
     #d3d3d3
   );
 }
-header {
- display: flex;
- justify-content: space-between;
- align-items: baseline;
-}
 nav a {
   text-decoration: none;
   color: #404040;
