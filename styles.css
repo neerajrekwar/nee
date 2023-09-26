@@ -170,6 +170,9 @@ footer {
 /* ran pass end */
 
 @media all and (max-width: 767px) {
+  nav{
+    display: none;
+  }
   body {
     background-color: #e69823;
   }
