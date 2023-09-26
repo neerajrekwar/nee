@@ -7,29 +7,37 @@
   font-size: 16px;
   scroll-behavior: smooth;
 }
+
 :root {
   --text: #404040;
   --box-color: #737373;
   --background: #a6a6a6;
   --background-body: #d9d9d9;
 }
+
 body {
   /* background: var(--thirdly-background-color); */
-  background: linear-gradient(
-    270deg,
-    #d9d9d9,
-    #d8d8d8,
-    #d7d7d7,
-    #d6d6d6,
-    #d5d5d5,
-    #d4d4d4,
-    #d3d3d3
-  );
+  background: linear-gradient(270deg,
+      #d9d9d9,
+      #d8d8d8,
+      #d7d7d7,
+      #d6d6d6,
+      #d5d5d5,
+      #d4d4d4,
+      #d3d3d3);
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
 nav a {
   text-decoration: none;
   color: #404040;
 }
+
 ul {
   display: flex;
   /* border: 2px solid palegreen; */
@@ -37,6 +45,7 @@ ul {
   align-items: baseline;
   list-style: none;
 }
+
 nav ul li .link {
   display: flex;
   text-decoration: none;
@@ -50,6 +59,7 @@ nav ul li .link {
   height: 45px;
   width: 83px;
 }
+
 li {
   margin: 5px;
   /* border: 2px tomato; */
@@ -69,71 +79,84 @@ li {
   background-color: var(--text);
   color: #fff;
 }
+
 .main-container {
   height: 100vh;
   margin: 50px;
 }
+
 .hire-me:hover {
   text-decoration: none;
   list-style: none;
 }
+
 .main-container .home .hire-me {
   text-decoration: none;
   list-style: none;
 }
+
 .main-container .home .let-talk {
   text-decoration: none;
   list-style: none;
 }
+
 .let-talk:hover {
   text-decoration: none;
   list-style: none;
 }
+
 .auto-type {
   font-size: 28px;
   color: var(--text);
 }
+
 .btn {
   text-align: center;
   color: #d4d4d4;
   background-color: #404040;
 }
+
 .profile-img {
   border-radius: 50%;
   height: 66px;
   width: 66px;
 }
+
 .icon {
   color: #404040;
 }
-section{
+
+section {
   border: solid 2px green;
 }
+
 /* footer start */
 footer {
   display: flex;
   text-align: center;
 }
+
 .cyrts {
   font-size: 1rem;
   color: var(--text);
 }
+
 /* footer end */
 
 /* clsasses defined  */
-.foot{
+.foot {
   /* color: tomato; */
 }
 
 /* ran pass start */
-.btn{
+.btn {
   height: 2.7em;
   padding: 10px;
   width: auto;
   border: none;
 }
 
-#generatedPassword{
+#generatedPassword {
   height: 2.7em;
   background-color: aliceblue;
   display: flex;
@@ -167,9 +190,11 @@ input[type="range"]::-webkit-slider-runnable-track {
 
 /* slider thumb */
 input[type="range"]::-webkit-slider-thumb {
-  -webkit-appearance: none; /* Override default look */
+  -webkit-appearance: none;
+  /* Override default look */
   appearance: none;
-  margin-top: -4px; /* Centers thumb on the track */
+  margin-top: -4px;
+  /* Centers thumb on the track */
   background-color: #808080;
   border-radius: 0.5rem;
   height: 1rem;
@@ -192,45 +217,50 @@ input[type="range"]::-moz-range-track {
 /* slider thumb */
 input[type="range"]::-moz-range-thumb {
   background-color: #808080;
-  border: none; /*Removes extra border that FF applies*/
+  border: none;
+  /*Removes extra border that FF applies*/
   border-radius: 0.5rem;
   height: 1rem;
   width: 1rem;
 }
 
-input[type="range"]:focus::-moz-range-thumb{
+input[type="range"]:focus::-moz-range-thumb {
   outline: 3px solid #808080;
   outline-offset: 0.125rem;
 }
-.pbx{
+
+.pbx {
   border: 2px solid tomato;
   display: block;
   height: auto;
 }
 
-.output{
+.output {
   width: 100%;
   padding: 20px 20px 0;
   border: 2px solid green;
   text-align: center;
 }
+
 /* ran pass end */
 /* Ran pass end */
 
 @media screen and (max-width: 767px) {
-  body{
-        background-color: #e69823;
-    }
+  body {
+    background-color: #e69823;
+  }
 }
+
 @media screen and (min-width: 767px) and (max-width: 1023px) {
-  body{
-      background-color: rgb(245, 248, 245);
+  body {
+    background-color: rgb(245, 248, 245);
   }
 }
 
 @media screen and (min-width: 1024px) {
-  body{
-      background-color: rgb(63, 196, 63);
+  body {
+    background-color: rgb(63, 196, 63);
   }
 }
+
 /*# sourceMappingURL=styles.css.map */
