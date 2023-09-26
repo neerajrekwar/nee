@@ -230,23 +230,25 @@ input[type="range"]:focus::-moz-range-thumb {
   border: 2px solid green;
   text-align: center;
 }
-
+.ctr_img{
+  height: 12vh;
+}
 /* ran pass end */
 /* Ran pass end */
 
-@media screen and (max-width: 767px) {
+@media all and (max-width: 767px) {
   body {
     background-color: #e69823;
   }
 }
 
-@media screen and (min-width: 767px) and (max-width: 1023px) {
+@media all and (min-width: 767px) and (max-width: 1023px) {
   body {
     background-color: rgb(245, 248, 245);
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media all and (min-width: 1024px) {
   body {
     background-color: rgb(63, 196, 63);
   }
