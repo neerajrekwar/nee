@@ -36,6 +36,7 @@ ul {
 }
 img{
   height: 33px;
+  width: auto;
 }
 
 nav ul li .link {
