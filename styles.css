@@ -17,14 +17,7 @@
 
 body {
   /* background: var(--thirdly-background-color); */
-  background: linear-gradient(270deg,
-      #d9d9d9,
-      #d8d8d8,
-      #d7d7d7,
-      #d6d6d6,
-      #d5d5d5,
-      #d4d4d4,
-      #d3d3d3);
+  border: #dfb26f;
 }
 header{
   margin: 5px;
