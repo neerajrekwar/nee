@@ -25,14 +25,7 @@ body {
       #d5d5d5,
       #d4d4d4,
       #d3d3d3);
-}
-
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-}
-
+}ds
 nav a {
   text-decoration: none;
   color: #404040;
