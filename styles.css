@@ -26,16 +26,20 @@ body {
     #d3d3d3
   );
 }
-/* header {
- 
+header {
+ display: flex;
+ justify-content: space-between;
+ align-items: baseline;
 }
-nav {
+nav a {
+  text-decoration: none;
+  color: #404040;
 }
 header nav {
   color: #fff;
   display: flex;
   justify-content: center;
-} */
+}
 ul {
   display: flex;
   /* border: 2px solid palegreen; */
