@@ -172,11 +172,12 @@ footer {
 .ctr_img{
   height: 12vw;
 }
-
-.bio_box img{
-  text-align: center;
+.bio_box{
   background-color: #dfb26f;
   border-radius: 15px;
+}
+.bio_box img{
+  text-align: center;
 }
 
 .profile_image{
