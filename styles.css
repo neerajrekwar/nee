@@ -175,6 +175,8 @@ footer {
 
 .bio_box img{
   text-align: center;
+  background-color: #dfb26f;
+  border-radius: 15px;
 }
 
 .profile_image{
