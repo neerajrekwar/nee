@@ -18,6 +18,7 @@ body {
   border: #dfb26f;
 }
 div {
+  width: 100%;
 }
 main{
   margin: 0 auto;
