@@ -35,11 +35,6 @@ nav a {
   text-decoration: none;
   color: #404040;
 }
-header nav {
-  color: #fff;
-  display: flex;
-  justify-content: center;
-}
 ul {
   display: flex;
   /* border: 2px solid palegreen; */
