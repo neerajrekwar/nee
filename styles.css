@@ -19,7 +19,8 @@ body {
   border: #dfb26f;
 }
 main{
-  margin: 10px;
+  margin: 0 auto;
+  width: 80%;
 }
 header{
   margin: 5px;
