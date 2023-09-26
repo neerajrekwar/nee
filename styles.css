@@ -116,6 +116,9 @@ li {
 .icon {
   color: #404040;
 }
+section{
+  border: solid 2px green;
+}
 /* footer start */
 footer {
   display: flex;
