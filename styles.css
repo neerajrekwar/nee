@@ -175,6 +175,10 @@ footer {
   text-align: center;
 }
 
+.profile_image{
+  border: solid 1px #EF7B45;
+}
+
 @media all and (max-width: 767px) {
   nav{
     display: none;
