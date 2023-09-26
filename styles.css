@@ -25,7 +25,10 @@ body {
       #d5d5d5,
       #d4d4d4,
       #d3d3d3);
-}ds
+}
+header{
+  margin: 5px;
+}
 nav a {
   text-decoration: none;
   color: #404040;
