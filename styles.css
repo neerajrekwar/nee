@@ -7,8 +7,9 @@
   font-size: 16px;
   scroll-behavior: smooth;
 }
-html{
-}
+
+html {}
+
 /* :root {
   --text: #404040;
   --box-color: #737373;
@@ -20,19 +21,22 @@ body {
   background-color: #fff;
   border: #dfb26f;
 }
+
 div {
   width: 100%;
 }
-main{
+
+main {
   margin: 0 auto;
   width: 80%;
 }
-header{
+
+header {
   margin: 20px;
 }
-nav{
-  
-}
+
+nav {}
+
 nav a {
   text-decoration: none;
   color: #404040;
@@ -46,7 +50,8 @@ ul {
   align-items: baseline;
   list-style: none;
 }
-img{
+
+img {
   height: 133px;
   width: auto;
 }
@@ -117,6 +122,7 @@ li {
   color: #d4d4d4;
   background-color: #404040;
 }
+
 .profile-img {
   border-radius: 50%;
   height: 66px;
@@ -127,9 +133,8 @@ li {
   color: #404040;
 }
 
-section {
+section {}
 
-}
 footer {
   display: flex;
   text-align: center;
@@ -139,6 +144,7 @@ footer {
   font-size: 1rem;
   color: var(--text);
 }
+
 .btn {
   height: 2.7em;
   padding: 10px;
@@ -163,25 +169,33 @@ footer {
   height: auto;
 }
 
-.ctr_img{
+.ctr_img {
   height: 12vw;
 }
-.my_sec{
+
+.my_sec {
+
   background-color: #e9cea5;
   border-radius: 15px;
   font-size: 12em;
 }
-.bio_box{
-  
-}
-.profile_image{
+
+.bio_box {}
+
+.profile_image {
   border: solid 1px #EF7B45;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
 }
 
 @media all and (max-width: 767px) {
-  nav{
+  nav {
     display: none;
   }
+
   body {
     background-color: #e69823;
   }
