@@ -179,7 +179,9 @@ footer {
   border-radius: 15px;
   font-size: 12em;
 }
-
+.my_sec .bio_box{
+  display: flex;
+}
 .bio_box {}
 
 .profile_image {
