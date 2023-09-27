@@ -165,7 +165,6 @@ footer {
 
 .pbx {
   border: 2px solid tomato;
-  display: block;
   height: auto;
 }
 
@@ -174,7 +173,6 @@ footer {
 }
 
 .my_sec {
-  display: block;
   background-color: #e9cea5;
   border-radius: 15px;
   font-size: 12em;
