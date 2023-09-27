@@ -7,11 +7,14 @@
   font-size: 16px;
   scroll-behavior: smooth;
 }
+html{
+}
 :root {
   --text: #404040;
   --box-color: #737373;
   --background: #a6a6a6;
   --background-body: #d9d9d9;
+  --text-pdn: 5px;
 }
 body {
   background-color: #fff;
@@ -175,9 +178,12 @@ footer {
 .bio_box{
   background-color: #e9cea5;
   border-radius: 15px;
+  padding: var(--text-pdn);
 }
 .bio_box img{
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .profile_image{
