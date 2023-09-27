@@ -169,13 +169,13 @@ footer {
 .ctr_img{
   height: 12vw;
 }
-.bio_box{
+.my_sec{
   background-color: #e9cea5;
   border-radius: 15px;
   padding: var(--text-pdn);
 
 }
-.bio_box img{
+.bio_box, img{
   display: flex;
   justify-content: center;
   align-items: center;
