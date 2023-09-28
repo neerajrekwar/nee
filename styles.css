@@ -22,6 +22,9 @@ body {
   width: 100%;
 background-image: url(images/photos/wave-bg.svg);
 background-repeat: no-repeat;
+background-position: center;
+object-fit: cover;
+background-blend-mode: darken;
   /* background-color: #8b7878; */
   border: solid 2px yellowgreen;
 }
