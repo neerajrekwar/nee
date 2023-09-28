@@ -18,7 +18,7 @@ html {}
   --text-pdn: 5px;
 } */
 body {
-  margin: 0 10px;
+  margin: 10px 0;
   /* background-color: #fff; */
   border: #dfb26f;
 }
