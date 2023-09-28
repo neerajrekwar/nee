@@ -20,6 +20,7 @@ html {}
 } */
 body {
 background-image: url(images/photos/wave-bg.svg);
+background-repeat: no-repeat;
   /* background-color: #8b7878; */
   border: solid 2px yellowgreen;
 }
