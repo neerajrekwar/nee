@@ -183,11 +183,11 @@ footer {
 .bio_box {}
 
 .profile_image {
-  border: solid 1px #EF7B45;
+  /* border: solid 1px #EF7B45; */
   display: block;
   margin-left: auto;
   margin-right: auto;
-  max-width: 400px;
+  max-width: 200px;
   width: 100%;
   height: auto;
 
