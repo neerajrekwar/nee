@@ -181,7 +181,9 @@ footer {
 .my_sec{
   display: flex;
 }
-.bio_box {}
+.bio_box {
+  line-height: 1;
+}
 
 .profile_image {
   /* border: solid 1px #EF7B45; */
