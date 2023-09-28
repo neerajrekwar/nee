@@ -103,6 +103,7 @@ li {
 .main-container .home .hire-me {
   text-decoration: none;
   list-style: none;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .main-container .home .let-talk {
