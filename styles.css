@@ -215,7 +215,7 @@ footer {
   }
 }
 
-@media all and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   nav {
     display: none;
   }
