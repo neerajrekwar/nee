@@ -6,6 +6,7 @@
   font-weight: 400;
   font-size: 16px;
   scroll-behavior: smooth;
+  background-color: #fff;
 }
 
 html {}
@@ -19,7 +20,7 @@ html {}
 } */
 body {
 
-  /* background-color: #fff; */
+  /* background-color: #8b7878; */
   border: solid 2px #dfb26f;
 }
 
