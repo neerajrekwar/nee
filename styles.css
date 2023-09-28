@@ -19,6 +19,7 @@ html {}
   --text-pdn: 5px;
 } */
 body {
+  width: 100%;
 background-image: url(images/photos/wave-bg.svg);
 background-repeat: no-repeat;
   /* background-color: #8b7878; */
