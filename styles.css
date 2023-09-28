@@ -18,6 +18,7 @@ html {}
   --text-pdn: 5px;
 } */
 body {
+  margin: 0 10px;
   /* background-color: #fff; */
   border: #dfb26f;
 }
