@@ -6,7 +6,6 @@
   font-weight: 400;
   font-size: 16px;
   scroll-behavior: smooth;
-  background-color: #fff;
   color: #404040;
 }
 
@@ -189,7 +188,7 @@ footer {
 }
 
 .bio_box {
-  line-height: 1;
+
 }
 
 .profile_image {
