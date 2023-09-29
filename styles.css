@@ -22,7 +22,7 @@ html {}
 
 body {
   width: 100%;
-  background-image: url(images/photos/wave-bg.svg);
+  background-image: url(images/photos/wave_bg.svg);
   background-repeat: no-repeat;
   background-position: center;
   object-fit: fill;
