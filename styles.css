@@ -220,7 +220,11 @@ footer {
 @media screen and (max-width: 767px) {
 
   body{
-    background: url(images/photos/stacked-waves-bg-vertical.svg);
+     background-repeat: no-repeat;
+     background-position: center;
+     object-fit: fill;
+     background-size: cover;
+     background: url(images/photos/stacked-waves-bg-vertical.svg);
   }
   nav {
     display: none;
