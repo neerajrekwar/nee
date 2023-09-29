@@ -9,11 +9,6 @@
   color: #404040;
 }
 
-#visual {
-  height: 100%;
-  width: 100%;
-}
-
 html {}
 
 :root {
@@ -27,7 +22,7 @@ html {}
 
 body {
   width: 100%;
-  background-image: url(images/photos/circle-scatter-haikei.svg);
+  background-image: url(images/photos/wave-bg.svg);
   background-repeat: no-repeat;
   background-position: center;
   object-fit: fill;
