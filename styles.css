@@ -15,13 +15,14 @@
 
 html {}
 
-/* :root {
-  --text: #404040;
-  --box-color: #737373;
-  --background: #a6a6a6;
-  --background-body: #d9d9d9;
+:root {
+  --text: #042A2B;
+  --box-color: #CDEDF6;
+  --background: #5EB1BF;
+  --background-body: #EF7B45;
+  --container: #D84727;
   --text-pdn: 5px;
-} */
+} 
 body {
   width: 100%;
 background-image: url(images/photos/circle-scatter-haikei.svg);
