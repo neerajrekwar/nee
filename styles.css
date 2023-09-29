@@ -8,7 +8,8 @@
   scroll-behavior: smooth;
   color: #404040;
 }
-#visual{
+
+#visual {
   height: 100%;
   width: 100%;
 }
@@ -22,14 +23,15 @@ html {}
   --background-body: #EF7B45;
   --container: #D84727;
   --text-pdn: 5px;
-} 
+}
+
 body {
   width: 100%;
-background-image: url(images/photos/circle-scatter-haikei.svg);
-background-repeat: no-repeat;
-background-position: center;
-object-fit: cover;
-background-blend-mode: darken;
+  background-image: url(images/photos/circle-scatter-haikei.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: fill;
+  background-blend-mode: darken;
   /* background-color: #8b7878; */
   border: solid 2px yellowgreen;
 }
@@ -197,9 +199,7 @@ footer {
 
 }
 
-.bio_box {
-
-}
+.bio_box {}
 
 .profile_image {
   /* border: solid 1px #EF7B45; */
@@ -211,6 +211,7 @@ footer {
   height: auto;
 
 }
+
 @media screen and (min-width: 1024px) {
   body {
     background-color: rgb(63, 196, 63);
