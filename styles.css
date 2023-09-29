@@ -22,7 +22,7 @@ html {}
 
 body {
   width: 100%;
-  background-image: url(images/photos/stacked-waves-haikei.svg);
+  background-image: url(images/photos/stacked-waves-bg.svg);
   background-repeat: no-repeat;
   background-position: center;
   object-fit: fill;
