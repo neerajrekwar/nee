@@ -28,7 +28,7 @@ body {
   object-fit: fill;
   background-size: cover;
   /* background-color: #8b7878; */
-  border: solid 2px yellowgreen;
+  /* border: solid 2px yellowgreen; */
 }
 
 div {
@@ -100,7 +100,7 @@ li {
 .main-container {
   height: auto;
   margin: 10px;
-  border: solid 2px tomato;
+  /* border: solid 2px tomato; */
 }
 
 .hire-me:hover {
@@ -192,7 +192,7 @@ footer {
   /* border-radius: 15px; */
   font-size: 12em;
   padding: 10px;
-  border: solid 2px yellow;
+  /* border: solid 2px yellow; */
 
 }
 
@@ -218,6 +218,10 @@ footer {
 }
 
 @media screen and (max-width: 767px) {
+
+  body{
+    background: url(images/photos/stacked-waves-bg-vertical.svg);
+  }
   nav {
     display: none;
   }
