@@ -42,6 +42,8 @@ main {
 
 section {
   height: 60vh;
+  max-width: 100%;
+  margin: 0 12px;
 }
 
 header {
