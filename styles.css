@@ -197,7 +197,11 @@ footer {
 
 }
 
-.bio_box {}
+.bio_box {
+  margin: 0 auto;
+  width: 50%;
+  height: 66vh;
+}
 
 .profile_image {
   /* border: solid 1px #EF7B45; */
