@@ -39,9 +39,11 @@ main {
   margin: 0 auto;
   width: 100%;
 }
-section{
+
+section {
   height: 40vh;
 }
+
 header {
   margin: 20px;
 }
@@ -218,18 +220,21 @@ footer {
 
 @media screen and (max-width: 767px) {
 
-  body{
-     background-repeat: no-repeat;
-     background-position: center;
-     object-fit: fill;
-     background-size: cover;
-     background: url(images/photos/stacked-waves-bg-vertical.svg);
+  body {
+    width: 100%;
+    background: url(images/photos/stacked-waves-bg-vertical.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: fill;
+    background-size: cover;
+    
   }
+
   nav {
     display: none;
   }
 
-  
+
 }
 
 
