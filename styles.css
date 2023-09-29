@@ -49,9 +49,7 @@ section {
 header {
   margin: 20px;
 }
-span{
-  font-size: 12em;
-}
+
 
 nav {}
 
@@ -246,7 +244,7 @@ footer {
   }
 
   .my_sec{
-    
+  
     font-size: small;
     width: 99%;
   }
