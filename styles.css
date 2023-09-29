@@ -248,6 +248,7 @@ footer {
     text-align: left;
     font-size: small;
     width: 99%;
+    max-width: 80%;
   }
 
 
