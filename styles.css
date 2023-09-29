@@ -197,7 +197,7 @@ footer {
   /* border-radius: 15px; */
   font-size: 12em;
   padding: 10px;
-  height: 90vh;
+  height: auto;
   /* border: solid 2px yellow; */
 
 }
