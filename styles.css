@@ -22,10 +22,11 @@ html {}
 
 body {
   width: 100%;
-  background-image: url(images/photos/stacked-waves-bg.svg);
+  background: url(images/photos/stacked-waves-bg.svg);
   background-repeat: no-repeat;
   background-position: center;
   object-fit: fill;
+  background-size: cover;
   /* background-color: #8b7878; */
   border: solid 2px yellowgreen;
 }
