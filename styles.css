@@ -31,7 +31,6 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   object-fit: fill;
-  background-blend-mode: darken;
   /* background-color: #8b7878; */
   border: solid 2px yellowgreen;
 }
