@@ -41,7 +41,7 @@ main {
 }
 
 section {
-  height: 40vh;
+  height: 60vh;
 }
 
 header {
@@ -147,7 +147,6 @@ li {
   color: #404040;
 }
 
-section {}
 
 footer {
   display: flex;
