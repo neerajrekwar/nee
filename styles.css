@@ -9,8 +9,8 @@
   color: #404040;
 }
 #visual{
-  height: auto;
-  max-width: 100%;
+  height: 100%;
+  width: 100%;
 }
 
 html {}
