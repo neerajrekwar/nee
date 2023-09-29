@@ -203,7 +203,7 @@ footer {
 
 .bio_box {
   margin: 0 auto;
-  width: 76%;
+  width: 96%;
   height: 66vh;
   text-align: center;
 }
@@ -219,7 +219,7 @@ footer {
 
 }
 
- /* @media screen and (min-width: 1024px) {
+/* @media screen and (min-width: 1024px) {
 
 } 
 
@@ -243,8 +243,8 @@ footer {
     display: none;
   }
 
-  .my_sec{
-  
+  .my_sec {
+    text-align: left;
     font-size: small;
     width: 99%;
   }
