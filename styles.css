@@ -9,7 +9,9 @@
   color: #404040;
 }
 
-html {}
+html {
+  /* transform: matrix3d(); */
+}
 
 :root {
   --text: #042A2B;
@@ -44,7 +46,7 @@ section {
   height: 60vh;
   max-width: 100%;
   margin: 0 12px;
-  border: 2px solid yellowgreen;
+  /* border: 2px solid yellowgreen; */
 }
 
 header {
