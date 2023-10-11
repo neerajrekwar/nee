@@ -227,13 +227,13 @@ footer{
   width: 100%;
   height: auto;
 }
-.cards {
+.info_cards {
   margin: 0 auto;
   display: grid;
-  /* grid-template-columns: repeat(auto-fit, minmax(328px, 5fr)); */
-  grid-template-rows: repeat(auto-fit, minmax(336, 2fr));
-  gap: 5px;
-  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(328px, 1fr));
+  /* grid-template-rows: repeat(auto-fit, minmax(336, 2fr)); */
+  gap:5px;
+  justify-content: space-between;
   align-items: center;
   height: auto;
 }
