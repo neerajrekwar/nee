@@ -134,7 +134,7 @@ li {
 
 .auto-type {
   font-size: 28px;
-  color: var(--text);
+  color: #bbc533;
 }
 
 .btn {
@@ -191,7 +191,7 @@ footer {
   height: 12vw;
 }
 
-.my_sec {
+.sec_container {
   margin: 0 auto;
   width: 90%;
   /* max-width: 60%; */
@@ -208,6 +208,7 @@ footer {
   margin: 0 auto;
   width: 96%;
   height: 66vh;
+  font-size: 2.5rem;
 }
 
 .profile_image {
@@ -218,7 +219,6 @@ footer {
   max-width: 200px;
   width: 100%;
   height: auto;
-
 }
 @media screen and (max-width: 767px) {
 
@@ -233,7 +233,7 @@ footer {
   }
 
   nav {
-    display: none;
+    /* display: none; */
   }
 
   .my_sec {
@@ -245,7 +245,16 @@ footer {
 }
 
 @media screen and (min-width: 767px) and (max-width: 1023px) {
+  body{
+    border: 5px solid green;
+    background-color: #042A2B;
+  }
   
 }
 @media screen and (min-width: 1024px) {
+  body{
+    border: 5px solid rgb(128, 105, 0);
+    background-color: #31c0c5;
+  }
+  
 } 
