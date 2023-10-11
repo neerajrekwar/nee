@@ -23,14 +23,9 @@ html {
 }
 
 body {
-  width: 100%;
-  background: url(images/photos/stacked-waves-bg.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  object-fit: fill;
-  background-size: cover;
+  
   /* background-color: #8b7878; */
-  /* border: solid 2px yellowgreen; */
+  border: solid 2px yellowgreen;
 }
 
 div {
@@ -40,13 +35,20 @@ div {
 main {
   margin: 0 auto;
   width: 100%;
+  border: 2px solid sandybrown;
+  width: 100%;
+  background: url(images/photos/stacked-waves-bg-yellow.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: fill;
+  background-size: cover;
 }
 
 section {
   height: 60vh;
   max-width: 100%;
   margin: 0 12px;
-  /* border: 2px solid yellowgreen; */
+  border: 2px solid yellowgreen;
 }
 
 header {
@@ -96,6 +98,12 @@ li {
   justify-content: center;
 }
 
+footer{
+  display: flex;
+  text-align: center;
+}
+
+
 .link {
   text-decoration: none;
 }
@@ -132,9 +140,13 @@ li {
   list-style: none;
 }
 
-.auto-type {
-  font-size: 28px;
-  color: #bbc533;
+.auto-type-set, .auto-type {
+  font-size: 3rem;
+  color: #494d11;
+}
+.auto-type-set{
+  font-size: 4rem;
+  color: #404040;
 }
 
 .btn {
@@ -151,12 +163,6 @@ li {
 
 .icon {
   color: #404040;
-}
-
-
-footer {
-  display: flex;
-  text-align: center;
 }
 
 .cyrts {
@@ -191,14 +197,15 @@ footer {
   height: 12vw;
 }
 
-.sec_container {
+.viewBox_container {
   margin: 0 auto;
   width: 90%;
   /* max-width: 60%; */
   /* background-color: #e9cea5; */
   /* border-radius: 15px; */
-  font-size: 12em;
+ 
   padding: 10px;
+  text-align: center;
   height: auto;
   /* border: solid 2px yellow; */
 
@@ -231,6 +238,9 @@ footer {
     background-size: cover;
 
   }
+  .viewBox_container{
+    text-align: left;
+  }
 
   nav {
     /* display: none; */
@@ -249,6 +259,7 @@ footer {
     border: 5px solid green;
     background-color: #042A2B;
   }
+  
   
 }
 @media screen and (min-width: 1024px) {
