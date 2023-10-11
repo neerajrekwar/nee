@@ -23,7 +23,14 @@ html {
 }
 
 body {
-  
+  width: 100%;
+  /* border: 2px solid sandybrown; */
+  width: 100%;
+  background: url(images/photos/stacked-waves-bg-yellow.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: fill;
+  background-size: cover;
   /* background-color: #8b7878; */
   /* border: solid 2px yellowgreen; */
 }
@@ -34,14 +41,7 @@ div {
 
 main {
   margin: 0 auto;
-  width: 100%;
-  /* border: 2px solid sandybrown; */
-  width: 100%;
-  background: url(images/photos/stacked-waves-bg-yellow.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  object-fit: fill;
-  background-size: cover;
+  
 }
 
 section {
@@ -248,26 +248,27 @@ footer{
   padding: 30px;
   border-radius: 15px;
 }
+
 @media screen and (max-width: 767px) {
 
   body {
-    width: 100%;
+    /* width: 100%;
     background: url(images/photos/stacked-waves-bg-vertical.svg);
     background-repeat: no-repeat;
     background-position: center;
     object-fit: fill;
-    background-size: cover;
+    background-size: cover; */
 
   }
   .viewBox_container{
     text-align: left;
   }
-
-  nav {
-    
+  header{
+    display: none;
   }
-
-
+  nav {
+    display: none;
+  }
   .my_sec {
     text-align: left;
     font-size: small;
@@ -289,9 +290,6 @@ footer{
     /* border: 5px solid green;
     background-color: #042A2B; */
   }
-  header{
-    display: none;
-  }
   
 }
 @media screen and (min-width: 1024px) {
@@ -299,12 +297,4 @@ footer{
     /* border: 5px solid rgb(128, 105, 0);
     background-color: #31c0c5; */
   }
-  header{
-    display: none;
-  }
-  nav{
-    display: none;
-    font-size: 2em 100px / 1em 50px;
-  }
-  
 } 
