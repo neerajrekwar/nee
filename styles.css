@@ -241,10 +241,9 @@ footer{
   .viewBox_container{
     text-align: left;
   }
-  header{
   }
   nav {
-    /* display: none; */
+    
   }
 
 
@@ -261,7 +260,9 @@ footer{
     /* border: 5px solid green;
     background-color: #042A2B; */
   }
-  
+  header{
+    display: none;
+  }
   
 }
 @media screen and (min-width: 1024px) {
@@ -269,5 +270,7 @@ footer{
     /* border: 5px solid rgb(128, 105, 0);
     background-color: #31c0c5; */
   }
-  
+  header{
+    display: none;
+  }
 } 
