@@ -241,7 +241,6 @@ footer{
   text-align: center;
   background-color: rgba(255, 255, 255, 0.507);
   backdrop-filter: blur(1px);
-  margin: 20px 20px 0px 20px;
   padding: 30px;
   border-radius: 15px;
 }
@@ -270,11 +269,11 @@ footer{
     max-width: 80%;
   }
   .auto-type {
-    font-size: 3rem;
+    font-size: 2rem;
     color: #494d11;
   }
   .auto-type-set{
-    font-size: 3rem;
+    font-size: 2rem;
     color: #404040;
   }
 }
