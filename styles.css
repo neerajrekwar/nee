@@ -260,7 +260,7 @@ footer{
   .viewBox_container{
     text-align: left;
   }
-  header{
+   nav{
     display: none;
   }
   .my_sec {
@@ -269,8 +269,8 @@ footer{
     width: 99%;
     max-width: 80%;
   }
-  .auto-type-set, .auto-type {
-    font-size: 2.6rem;
+  .auto-type {
+    font-size: 3rem;
     color: #494d11;
   }
   .auto-type-set{
