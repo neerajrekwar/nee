@@ -49,17 +49,16 @@ section {
   max-width: 100%;
   margin: 0 12px;
   /* border: 2px solid yellowgreen; */
+  color: #476A6F;
 }
 
 header {
   margin: 20px;
   display: none;
-  
+  /* border: 2px solid; */
 }
-nav{
-  display: none;
-}
-nav a {
+
+nav, a {
   text-decoration: none;
   color: #404040;
   margin: 10px;
@@ -143,8 +142,8 @@ footer{
 }
 
 .auto-type-set, .auto-type {
-  font-size: 3.2rem;
-  color: #494d11;
+  font-size: 4rem;
+  color: #476A6F;
 }
 .auto-type-set{
   font-size: 4rem;
@@ -286,7 +285,7 @@ button:active .button_top {
   margin: 0 auto;
   width: 90%;
 }
-@media screen and (max-width: 767px) {
+@media all and (max-width: 767px) {
   nav{
     display: none;
   }
@@ -322,7 +321,7 @@ button:active .button_top {
   }
 }
 
-@media screen and (min-width: 767px) and (max-width: 1023px) {
+@media all and (min-width: 767px) and (max-width: 1023px) {
 
   nav{
     display: none;
@@ -335,10 +334,8 @@ button:active .button_top {
     display: none;
   }
 }
-@media screen and (min-width: 1024px) {
-  nav{
-    display: none;
-  }
+@media all and (min-width: 1024px) {
+  
   body{
     /* border: 5px solid rgb(128, 105, 0);
     background-color: #31c0c5; */
