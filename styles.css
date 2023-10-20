@@ -6,7 +6,7 @@
   font-weight: 400;
   font-size: 16px;
   scroll-behavior: smooth;
-  color: #404040;
+  color: #000;
 }
 
 html {
@@ -217,7 +217,7 @@ footer{
 .bio_box {
   margin: 0 auto;
   width: 96%;
-  height: 66vh;
+  height: 100vh;
   font-size: 2.5rem;
 }
 
@@ -301,7 +301,8 @@ button:active .button_top {
     background-position: center;
     object-fit: fill;
     background-size: cover;
-
+    /* border: 5px solid rgb(82, 207, 89); */
+    margin: 10px;
   }
   .viewBox_container{
     text-align: left;
@@ -315,10 +316,8 @@ button:active .button_top {
     width: 99%;
     max-width: 80%;
   }
-  .auto-type {
-    font-size: 3rem;
-  .auto-type-set{
-    font-size: 3rem;
+  .auto-type, .auto-type-set {
+    font-size: 2rem;
   }
 }
 
@@ -334,6 +333,8 @@ button:active .button_top {
     background-position: center;
     object-fit: fill;
     background-size: cover;
+    /* border: 5px solid rgb(216, 38, 163); */
+    margin: 10px;
   }
   nav {
     display: none;
@@ -342,8 +343,8 @@ button:active .button_top {
 @media screen and (min-width: 1024px) {
   
   body{
-    /* border: 5px solid rgb(128, 105, 0);
-    background-color: #31c0c5; */
+    /* border: 5px solid rgb(128, 105, 0); */
+    margin: 10px;
   }
   nav {
     display: none;
