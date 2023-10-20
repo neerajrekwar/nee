@@ -45,7 +45,7 @@ main {
 }
 
 section {
-  height: 60vh;
+  height: auto;
   max-width: 100%;
   margin: 0 12px;
   /* border: 2px solid yellowgreen; */
