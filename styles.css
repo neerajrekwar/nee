@@ -250,6 +250,7 @@ footer{
   border-radius: 15px;
   padding: 5px;
   margin: 24px 0;
+  box-shadow: h-offset v-offset blur spread color inset;
 }
 button {
   /* Variables */
