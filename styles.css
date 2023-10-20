@@ -49,15 +49,18 @@ section {
   max-width: 100%;
   margin: 0 12px;
   /* border: 2px solid yellowgreen; */
-  color: #476A6F;
+  color: #519E8A;
 }
 
 header {
   margin: 20px;
-  display: none;
   /* border: 2px solid; */
 }
-
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 nav, a {
   text-decoration: none;
   color: #404040;
@@ -143,7 +146,7 @@ footer{
 
 .auto-type-set, .auto-type {
   font-size: 4rem;
-  color: #476A6F;
+  color: #519E8A;
 }
 .auto-type-set{
   font-size: 4rem;
