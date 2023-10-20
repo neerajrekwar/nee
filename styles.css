@@ -56,6 +56,9 @@ header {
   display: none;
   
 }
+nav{
+  display: none;
+}
 nav a {
   text-decoration: none;
   color: #404040;
@@ -284,10 +287,8 @@ button:active .button_top {
   width: 90%;
 }
 @media screen and (max-width: 767px) {
-  header {
-    margin: 20px;
+  nav{
     display: none;
-    
   }
 
   body {
@@ -323,10 +324,8 @@ button:active .button_top {
 
 @media screen and (min-width: 767px) and (max-width: 1023px) {
 
-  header {
-    margin: 20px;
+  nav{
     display: none;
-    
   }
   body{
     /* border: 5px solid green;
@@ -337,10 +336,8 @@ button:active .button_top {
   }
 }
 @media screen and (min-width: 1024px) {
-  header {
-    margin: 20px;
+  nav{
     display: none;
-    
   }
   body{
     /* border: 5px solid rgb(128, 105, 0);
