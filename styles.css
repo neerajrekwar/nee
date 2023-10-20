@@ -53,6 +53,7 @@ section {
 
 header {
   margin: 20px;
+  display: none;
   
 }
 nav a {
@@ -283,6 +284,11 @@ button:active .button_top {
   width: 90%;
 }
 @media screen and (max-width: 767px) {
+  header {
+    margin: 20px;
+    display: none;
+    
+  }
 
   body {
     /* width: 100%;
@@ -316,6 +322,12 @@ button:active .button_top {
 }
 
 @media screen and (min-width: 767px) and (max-width: 1023px) {
+
+  header {
+    margin: 20px;
+    display: none;
+    
+  }
   body{
     /* border: 5px solid green;
     background-color: #042A2B; */
@@ -325,6 +337,11 @@ button:active .button_top {
   }
 }
 @media screen and (min-width: 1024px) {
+  header {
+    margin: 20px;
+    display: none;
+    
+  }
   body{
     /* border: 5px solid rgb(128, 105, 0);
     background-color: #31c0c5; */
