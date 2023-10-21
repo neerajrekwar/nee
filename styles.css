@@ -26,7 +26,7 @@ body {
   width: 100%;
   /* border: 2px solid sandybrown; */
   width: 100%;
-  background: url(images/photos/layered-waves-desktop.svg);
+  background: url(images/photos/stacked-waves-mb.svg);
   background-repeat: no-repeat;
   background-position: center;
   object-fit: fill;
@@ -72,9 +72,6 @@ a:hover{
   text-decoration: none;
 }
 ul {
-  display: flex;
-  justify-content: center;
-  align-items: baseline;
   list-style: none;
 }
 
@@ -99,15 +96,11 @@ nav ul li .link {
 li {
   margin: 5px;
   height: 40px;
-  color: #ffffff;
-  display: flex;
-  justify-items: center;
-  justify-content: center;
 }
 
 footer{
   display: flex;
-  text-align: center;
+  border: 2px solid;
 }
 
 
@@ -249,7 +242,7 @@ footer{
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.507);
+  background-color: rgba(194, 214, 103, 0.507);
   backdrop-filter: blur(1px);
   border-radius: 15px;
   padding: 5px;
@@ -417,6 +410,29 @@ button:active .button_top {
 textarea{
   height: 50rem;
 }
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+.contact_box{
+  display: flex;
+  justify-self: center;
+  align-items: stretch;
+  flex-direction: row;
+  align-content: flex-start;
+  justify-content: space-evenly;
+}
+#contact{
+  color: #5EB1BF;
+  border: 2px solid goldenrod;
+  border-radius: 100%;
+}
+.contact_support{
+  border: 2px solid tomato;
+}
 @media screen and (max-width: 767px) {
   nav{
     display: none;
@@ -456,7 +472,7 @@ textarea{
   }
   body{
     width: 100%;
-    background: url(images/photos/stacked-waves-tab.svg);
+    /* background: url(images/photos/stacked-waves-tab.svg); */
     background-repeat: no-repeat;
     background-position: center;
     object-fit: fill;
