@@ -67,7 +67,10 @@ nav, a {
   margin: 10px;
   height: max-content;
 }
-
+a:hover{
+  color: #404040;
+  text-decoration: none;
+}
 ul {
   display: flex;
   justify-content: center;
@@ -234,8 +237,8 @@ footer{
 .info_cards {
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(328px, 1fr));
-  /* grid-template-rows: repeat(auto-fit, minmax(336, 2fr)); */
+  grid-template-columns: repeat(auto-fit, minmax(428px, 1fr));
+  /* grid-template-rows: repeat(auto-fit, minmax(436, 5fr)); */
   gap:10px;
   justify-content: space-between;
   align-items: center;
@@ -295,7 +298,10 @@ button:active .button_top {
   display: flex;
   /* border: 2px solid; */
 }
-.connet-btn a{
+.connect{
+  color: #000;
+}
+.connect:hover{
     text-decoration: none;
 }
 @media screen and (max-width: 767px) {
