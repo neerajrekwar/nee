@@ -147,10 +147,11 @@ footer{
 .auto-type-set, .auto-type {
   font-size: 4rem;
   color: #519E8A;
+  
 }
 .auto-type-set{
   font-size: 4rem;
-  color: #404040;
+  color: #404040;  
 }
 
 .btn {
@@ -217,7 +218,7 @@ footer{
 .bio_box {
   margin: 0 auto;
   width: 97%;
-  height: 100vh;
+  height: 50vh;
   font-size: 2.5rem;
 }
 
