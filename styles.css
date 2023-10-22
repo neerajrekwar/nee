@@ -436,7 +436,7 @@ textarea {
     'FILL' 0,
     'wght' 400,
     'GRAD' 0,
-    'opsz' 24;
+    'opsz' 20px;
   padding: 5px;
   display: flex;
   justify-self: center;
