@@ -106,9 +106,8 @@ footer {
   display: flex;
   /* border: 2px solid; */
   color: #fff;
-  font-family: 'Poppins', sans-serif;
   font-weight: 200;
-  background-color: #bdbcbc;
+  background-color: rgba(194, 214, 103, 0.807);
   padding: 10px;
 }
 
@@ -489,10 +488,15 @@ li a:hover{
   /* border: 2px solid salmon; */
 }
 .contact_support .icons-format {
-  border: 2px solid hotpink
+  /* border: 2px solid hotpink; */
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 .contac-circle{
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
 }
 @media screen and (max-width: 767px) {
   nav {
