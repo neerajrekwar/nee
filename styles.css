@@ -447,17 +447,17 @@ textarea {
   flex-direction: row;
   align-content: stretch;
   justify-content: flex-start;
-  border: 2px solid rgb(82, 194, 38);
+  /* border: 2px solid rgb(82, 194, 38); */
 }
 
 #contact {
   color: #5EB1BF;
-  border: 2px solid goldenrod;
+  /* border: 2px solid goldenrod; */
   border-radius: 100%;
 }
 
 .contact_support {
-  border: 2px solid tomato;
+  /* border: 2px solid tomato; */
   
 }
 .contact_support li{
@@ -471,7 +471,7 @@ textarea {
 }
 .contact_support b{
   display: flex;
-  border: 2px solid rgb(14, 112, 44);
+  /* border: 2px solid rgb(14, 112, 44); */
   margin: 5px 20px 10px 0px;
   color: #fff;
 }
@@ -499,7 +499,15 @@ li a:hover{
     /* border: 5px solid rgb(82, 207, 89); */
     margin: 10px;
   }
-
+  .contact_box {
+    display: flex;
+    justify-self: center;
+    align-items: flex-start;
+    align-content: stretch;
+    justify-content: flex-start;
+    /* border: 2px solid rgb(82, 194, 38); */
+    flex-direction: column;
+  }
   .viewBox_container {
     text-align: left;
   }
