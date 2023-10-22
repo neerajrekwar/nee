@@ -487,6 +487,12 @@ textarea {
   justify-content: center;
   align-items: center;
   color: #404040;
+  /* border: 2px solid yellow; */
+}
+.social-link:hover{
+
+
+
 }
 .material-symbols-outlined {
   font-variation-settings:
