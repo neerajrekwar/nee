@@ -12,9 +12,9 @@
 html {}
 
 :root {
-  --text: #042A2B;
-  --box-color: #CDEDF6;
-  --background: #5EB1BF;
+  --text: #dadada;
+  --box-border: #C4F1BE;
+  --: #5EB1BF;
   --background-body: #EF7B45;
   --container: #D84727;
   --text-pdn: 5px;
@@ -41,18 +41,15 @@ main {
   margin: 0 auto;
 
 }
-
+.logo{
+  margin: 7px;
+}
 section {
   height: auto;
   max-width: 100%;
   margin: 0 12px;
   /* border: 2px solid yellowgreen; */
   color: #519E8A;
-}
-
-header {
-  margin: 20px;
-  /* border: 2px solid; */
 }
 
 .header {
@@ -65,10 +62,11 @@ nav,
 a {
   text-decoration: none;
   color: #404040;
-  margin: 10px;
-  height: max-content;
+  display: flex;
 }
-
+.nav-links{
+  display: flex;
+}
 a:hover {
   color: #404040;
   text-decoration: none;
@@ -98,7 +96,6 @@ nav ul li .link {
 
 li {
   margin: 5px;
-  height: 40px;
 }
 
 footer {
@@ -225,6 +222,13 @@ footer {
   width: 97%;
   height: 50vh;
   font-size: 2.5rem;
+  /* border: 2px solid green; */
+}
+.img_box{
+  display: flex;
+}
+.img_box img{
+  height: 100%;
 }
 
 .profile_image {
@@ -276,7 +280,7 @@ button {
  }
  
  button.learn-more {
-  width: 12rem;
+  width: 22rem;
   height: auto;
  }
  
@@ -490,9 +494,6 @@ textarea {
   /* border: 2px solid yellow; */
 }
 .social-link:hover{
-
-
-
 }
 .material-symbols-outlined {
   font-variation-settings:
@@ -568,9 +569,6 @@ li a:hover{
   margin: 2px;
 }
 @media screen and (max-width: 767px) {
-  nav {
-    display: none;
-  }
 
   body {
     width: 100%;
@@ -595,9 +593,7 @@ li a:hover{
     text-align: left;
   }
 
-  nav {
-    display: none;
-  }
+
 
   .my_sec {
     text-align: left;
@@ -614,9 +610,6 @@ li a:hover{
 
 @media screen and (min-width: 767px) and (max-width: 1023px) {
 
-  nav {
-    display: none;
-  }
 
   body {
     width: 100%;
@@ -629,9 +622,7 @@ li a:hover{
     margin: 10px;
   }
 
-  nav {
-    display: none;
-  }
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -641,7 +632,4 @@ li a:hover{
     margin: 10px;
   }
 
-  nav {
-    display: none;
-  }
 }
