@@ -49,7 +49,6 @@ section {
   max-width: 100%;
   margin: 0 12px;
   /* border: 2px solid yellowgreen; */
-  color: #519E8A;
 }
 
 .header {
@@ -146,13 +145,13 @@ footer {
 
 .auto-type-set,
 .auto-type {
-  font-size: 4rem;
+  font-size: 3rem;
   color: #519E8A;
 
 }
 
 .auto-type-set {
-  font-size: 4rem;
+  font-size: 3rem;
   color: #404040;
 }
 
@@ -205,22 +204,24 @@ footer {
 }
 
 .viewBox_container {
-  margin: 0 auto;
+  margin:  0 auto; 
   width: 80%;
   /* max-width: 60%; */
-  /* background-color: #e9cea5; */
+  /* background-color: #ece07591; */
   /* border-radius: 15px; */
-
-  padding: 10px;
+  padding: 30px 10px;
   height: auto;
   /* border: solid 2px yellow; */
 
 }
-
+.front-ifo{
+  padding-top: 50px;
+  display: flex;
+}
 .bio_box {
   margin: 0 auto;
   width: 97%;
-  height: 50vh;
+  height: 40vh;
   font-size: 2.5rem;
   /* border: 2px solid green; */
 }
@@ -228,9 +229,16 @@ footer {
   display: flex;
 }
 .img_box img{
-  height: 100%;
+  height: 20rem;
+  width: 100%;
 }
-
+.viewBox_container .bio_box .img_box{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid goldenrod;
+}
 .profile_image {
   /* border: solid 1px #EF7B45; */
   display: block;
@@ -244,7 +252,7 @@ footer {
 .info_cards {
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(50vh, 2fr));
+  grid-template-columns: repeat(auto-fit, minmax(255px, 2fr));
   /* grid-template-rows: repeat(auto-fit, minmax(436px, 2fr)); */
   gap: 10px;
   justify-content: space-between;
@@ -258,11 +266,8 @@ footer {
   align-items: center;
   text-align: center;
   background-color: rgba(194, 214, 103, 0.507);
-  backdrop-filter: blur(1px);
   border-radius: 15px;
-  padding: 5px;
-  margin: 24px 0;
-  box-shadow: h-offset v-offset blur spread color inset;
+  /* border: 2px solid green; */
 }
 
 button {
@@ -327,7 +332,7 @@ button {
  button.learn-more .button-text {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
   position: absolute;
-  top: 0;
+  top: -6px;
   left: 0;
   right: 0;
   bottom: 0;
@@ -354,6 +359,7 @@ button {
 .services_box {
   margin: 0 auto;
   width: 90%;
+  /* border: 2px solid tomato; */
 }
 
 .connet-btn {
@@ -580,6 +586,9 @@ li a:hover{
     /* border: 5px solid rgb(82, 207, 89); */
     margin: 10px;
   }
+  .front-ifo{
+    display: contents;
+  }
   .contact_box {
     display: flex;
     justify-self: center;
@@ -604,7 +613,7 @@ li a:hover{
 
   .auto-type,
   .auto-type-set {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 }
 
