@@ -53,8 +53,7 @@ main {
     background-color: aliceblue;
     border-radius: 24px;
     height: 50vh;
-    box-shadow: 12px 12px 2px 1px rgba(114, 176, 184, 0.2);
-}
+    box-shadow: 15px 11px 15px -3px rgb(0 0 0 / 41%);
 
 h1 {
     font-weight: bold;
@@ -98,4 +97,81 @@ button{
     padding: 5px 0;
     display: flex;
     /* border: 2px solid; */
+}
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply a background color to the navigation bar */
+nav {
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Style for the logo */
+.logo {
+    color: #fff;
+    font-size: 24px;
+}
+
+/* Style for the navigation links */
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Hamburger menu for mobile */
+.burger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.burger .line1, .burger .line2, .burger .line3 {
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px 0;
+}
+
+/* Media query for mobile responsiveness */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+
+    .burger {
+        display: flex;
+    }
+
+    /* Show the navigation links when the burger menu is clicked */
+    .nav-links.active {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        right: 20px;
+        background-color: #333;
+        z-index: 1;
+    }
+
+    .nav-links.active li {
+        margin: 10px 0;
+    }
 }
