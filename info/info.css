@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: hsla(148, 89%, 78%, 1);
+    background: linear-gradient(45deg, hsla(148, 89%, 78%, 1) 0%, hsla(210, 81%, 22%, 1) 100%);
+    background: -moz-linear-gradient(45deg, hsla(148, 89%, 78%, 1) 0%, hsla(210, 81%, 22%, 1) 100%);
+    background: -webkit-linear-gradient(45deg, hsla(148, 89%, 78%, 1) 0%, hsla(210, 81%, 22%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#95F9C3", endColorstr="#0B3866", GradientType=1);
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: fill;
+    background-size: cover;
+    /* aspect-ratio: 1/1; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    /* border: 2px solid #fff; */
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    aspect-ratio: 1/1;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24;
+    color: #404040;
+}
+
+.subscribe-box {
+    /* border: 2px solid teal; */
+    margin: 5px;
+    padding: 50px;
+    text-align: center;
+    color: rgb(30, 32, 32);
+    background-color: aliceblue;
+    border-radius: 24px;
+    height: 50vh;
+    box-shadow: 12px 12px 2px 1px rgba(114, 176, 184, 0.2);
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+p {
+    padding: 15px 0;
+    font-size: .9rem;
+}
+
+.icon {
+    border: none;
+    border-radius: 50%;
+    background-color: aliceblue;
+    padding: 15px;
+    margin: 10px;
+    border: 2px solid teal;
+}
+
+input{
+    margin: 0px 5px 0px 0px;
+    padding: 0 15px;
+    border: 2px solid #404040;
+    width: 65%;
+}
+button{
+    color: azure;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, hsla(148, 89%, 78%, 1) 0%, hsla(210, 81%, 22%, 1) 100%);
+}
+.inset-btn{
+    border-radius: 24px;
+    height: 2.7rem;
+}
+.sub-btn{
+    margin: 5px 0;
+    padding: 5px 0;
+    display: flex;
+    /* border: 2px solid; */
+}

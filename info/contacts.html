@@ -1,84 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>Subscribe to Newsletters</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-        }
-
-        .container {
-            max-width: 400px;
-            margin: 0 auto;
-            padding: 20px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            background-color: #f9f9f9;
-        }
-
-        .form-group {
-            margin-bottom: 20px;
-        }
-
-        .form-group label {
-            display: block;
-            font-weight: bold;
-        }
-
-        .form-group input[type="text"],
-        .form-group input[type="email"] {
-            width: 100%;
-            padding: 10px;
-            margin-top: 5px;
-            border: 1px solid #ccc;
-            border-radius: 3px;
-        }
-
-        .form-group select {
-            width: 100%;
-            padding: 10px;
-            margin-top: 5px;
-            border: 1px solid #ccc;
-            border-radius: 3px;
-        }
-
-        .form-group button {
-            background-color: #007BFF;
-            color: white;
-            border: none;
-            border-radius: 3px;
-            padding: 10px 20px;
-            cursor: pointer;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="info.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>info</title>
 </head>
+
 <body>
-    <div class="container">
-        <h2>Subscribe to Newsletters</h2>
-        <form action="" method="">
-            <div class="form-group">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
+    <main>
+        <div class="subscribe-box">
+            <span class="material-symbols-outlined icon">
+                loyalty
+                </span>
+            <h1>SUBSCRIBE</h1>
+            <P>Subscribe to our newslettera and stay updated</P>
+            <div class="sub-btn">
+            <input class="inset-btn" type="email" placeholder="Email"><button type="submit" class="inset-btn">Subscribe</button>
             </div>
-
-            <div class="form-group">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-            </div>
-
-            <div class="form-group">
-                <label for="newsletter">Select newsletters:</label>
-                <select id="newsletter" name="newsletter" multiple>
-                    <option value="newsletter1">Newsletter 1</option>
-                    <option value="newsletter2">Newsletter 2</option>
-                    <option value="newsletter3">Newsletter 3</option>
-                </select>
-            </div>
-
-            <div class="form-group">
-                <button type="submit">Subscribe</button>
-            </div>
-        </form>
-    </div>
+        </div>
+    </main>
 </body>
+
 </html>
