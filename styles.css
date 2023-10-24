@@ -220,8 +220,8 @@ footer {
 .bio_box {
   margin: 0 auto;
   width: 97%;
-  height: 40vh;
-  font-size: 2.5rem;
+  height: 57vh;
+  font-size: 4rem;
   /* border: 2px solid green; */
 }
 .img_box{
@@ -502,6 +502,9 @@ li a:hover{
   .front-ifo{
     display: contents;
   }
+  .img_box{
+    display: none;
+  }
   .contact_box {
     display: flex;
     justify-self: center;
@@ -526,7 +529,7 @@ li a:hover{
 
   .auto-type,
   .auto-type-set {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
 }
 
