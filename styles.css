@@ -534,6 +534,10 @@ li a:hover{
     /* border: 5px solid rgb(82, 207, 89); */
     margin: 10px;
   }
+  #main-menu{
+    display: block;
+    
+  }
   .front-ifo{
     display: contents;
   }
