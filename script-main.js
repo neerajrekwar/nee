@@ -22,6 +22,4 @@ buttonThree.addEventListener('click', () => {
         buttonThree.setAttribute('aria-expanded', 'false');
     }
 })
-
-}
 // const insteadIAmOk = new  Accepted("asal mein","ek tarfa",["..."])
