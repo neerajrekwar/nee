@@ -53,41 +53,19 @@ main {
   aspect-ratio: 1/1;
 }
 
-.navbar {
-  display: flex;
-  list-style: none;
-  padding: 10px;
-}
-.nav-link{
-  margin: 0 10px;
-}
-.nav-link-box.nav-link:hover{
-  transition: all .50s ease;
+.navigation {
+    padding: 3em;
+    max-width: 12px;
+    display: flex;
+    gap: clamp(2rem, 8vw, 4rem);
 }
 
-.main-menu{
-  display: flex;
-  
-}
-.main-menu a{
-  margin: 10px 0;
-  padding: 0 10px ;
-}
-#menu-icon{
-  display: none;
-  margin: 10px;
-  font-size: 35px;
+button {
+    background: transparent;
+/*  border: 1px solid var(--button-color, #404040); */
+    border-radius: 2px;
 }
 
-
-.link {
-  text-decoration: none;
-}
-
-.link:hover {
-  background-color: var(--text);
-  color: #fff;
-}
 section {
   height: auto;
   max-width: 100%;
