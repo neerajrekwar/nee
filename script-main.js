@@ -10,11 +10,18 @@ function screen() {
 document.getElementById("screen-fit").innerHTML = 'Screen: ' + myWidth + "x" + myHeight + ' px';
 }
 */
-let menu = document.querySelector('#menu-icon');
-let navbar = document.querySelector('.navbar');
+const buttonThree = document.querySelector('.button-three');
 
-menu.onclick = () => {
-  menu.classList.toggle('bx-x');
-  navbar.classList.toggle('open');
+buttonThree.addEventListener('click', () => {
+    const menu = document.querySelector('.navbar');
+    menu.classList.toggle('active');
+    const isOpened = buttonThree.getAttribute('aria-expanded');
+    if (isOpened === 'false') {
+        buttonThree.setAttribute('aria-expanded', 'true');
+    } else {
+        buttonThree.setAttribute('aria-expanded', 'false');
+    }
+})
+
 }
 // const insteadIAmOk = new  Accepted("asal mein","ek tarfa",["..."])
