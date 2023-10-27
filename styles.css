@@ -118,7 +118,7 @@ ul li{
     padding: 10px;
     color: azure;
     padding: 10px;
-    color: azure;
+    color: #000;
     /* font-size: 14px; */
     transition: all 5ms cubic-bezier(0.24, 0.06, 1, -0.37);
     right: 13px;
@@ -127,6 +127,8 @@ ul li{
 li a:hover{
     color: #ffffff;
     background-color: #b1a60b;
+    transition: all 1s ease;
+     right:-20px
 }
 
 section {
@@ -543,8 +545,9 @@ li a:hover{
         justify-content: center;
         flex-direction: column;
         position: absolute;
-        top: 0;
-        left: 0;
+        top: 64px;
+        left: 20px;
+        border-radius: 10px;
         background-color: transparent;
         backdrop-filter: blur(4px);
         width: 100%;
