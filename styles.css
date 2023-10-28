@@ -106,11 +106,15 @@ ul li{
 .main-menu-mini{
     display: none;
 }
-.navbar ul {
+.navbar ul is:(.navlink){
     width: 70%;
     margin: 0 auto;
-    display: block;
+    display: flex;
 }
+.navlink li{
+      display: block;
+      border: 2px solid tomato;
+    }
 ul li{
     display: block;
     width: 100%;
@@ -534,19 +538,25 @@ li a:hover{
   .main-menu-mini{
         display: flex;
     }
-    .navbar ul{
+    .navbar .navlink{
         display: block;
         
+    }
+    .navlink li{
+      display: block;
+      border: 2px solid tomato;
     }
     .navbar{
         display: none;
     }
     .navbar.active{
-        display: block;
+        display: flex;
+        justify-content: center;
+        align-item: center;
         flex-direction: column;
         position: absolute;
-        top: 64px;
-        left: 20px;
+        top: 60px;
+        right: 20px;
         border-radius: 10px;
         border: 2px solid #000;
         background-color: transparent;
