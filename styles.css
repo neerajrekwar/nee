@@ -106,14 +106,13 @@ ul li{
 .main-menu-mini{
     display: none;
 }
-.navbar ul is:(.navlink){
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
+.navlink {
+  display: flex;
+  justify-content: center;
+  align-item: center;
 }
 .navlink li{
       display: flex;
-      padding:10px;
       border: 2px solid tomato;
     }
 ul li{
