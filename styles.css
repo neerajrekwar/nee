@@ -1,4 +1,4 @@
-* {
+3* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -107,22 +107,21 @@ ul li{
     display: none;
 }
 .navbar ul is:(.navlink){
-    width: 70%;
+    width: 100%;
     margin: 0 auto;
     display: flex;
 }
 .navlink li{
       display: block;
+      padding:10px;
       border: 2px solid tomato;
-  height: 14em;
-  width: 4rem;
     }
 ul li{
     display: block;
     width: 100%;
     margin: 0 auto;
 }
-.navlink li a:hover:before {
+.navlink li a {
     padding: 10px;
     color: #000;
     /* font-size: 14px; */
@@ -130,7 +129,7 @@ ul li{
     right: 20px;
 
 }
-.navlink li a:after{
+.navlink li a:hover{
     color: #ffffff;
     background-color: #b1a60b;
     transition: left 1s ease;
@@ -138,8 +137,8 @@ ul li{
 }
 .navbar li a:hover:after{
     color: #ffffff;
-   background-color: 
-    transition: padding 5s ease;
+   background-color: azure;
+    transition: padding 1s ease;
     padding:20px:
 }
 section {
