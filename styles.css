@@ -122,21 +122,23 @@ ul li{
 }
 .navbar li a{
     padding: 10px;
-    color: azure;
-    padding: 10px;
     color: #000;
     /* font-size: 14px; */
     transition: all 5ms cubic-bezier(0.24, 0.06, 1, -0.37);
     right: 13px;
 
 }
-li a:hover{
+.navbar li a:hover:before{
     color: #ffffff;
     background-color: #b1a60b;
-    transition: all 1s ease;
-     right:-20px
+    transition: padding 1s ease;
+    padding: 0 -20px;
 }
-
+.navbar li a:after{
+    color: #ffffff;
+    transition: padding 0.5s ease-out;
+    padding:0 20px:
+}
 section {
   height: auto;
   max-width: 100%;
