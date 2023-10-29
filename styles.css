@@ -107,12 +107,12 @@ ul li{
     display: none;
 }
 .navlink {
-  display: block;
+  display: flex;
   border: 2px solid  yellowgreen; 
 }
 
 .navlink li{
-      display: block;
+      display: flex;
     }
 
 .navlink li a {
