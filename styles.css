@@ -111,6 +111,9 @@ ul li{
   justify-content: center;
   align-item: center;
 }
+ul {
+  display: block;
+}
 .navlink li{
       display: block;
     }
@@ -126,10 +129,9 @@ ul li{
       padding: 10px;
       border: 2px solid green;
       border-radius: 10px;
-    color: #ffffff;
-   background-color: azure;
-    transition: all 0.5ms cubic-bezier(0.24, 0.06, 1, -0.37);
-
+      color: #000;
+      background-color: azure;
+      transition: all 0.5ms cubic-bezier(0.24, 0.06, 1, -0.37);
 }
 section {
   height: auto;
@@ -529,13 +531,14 @@ li a:hover{
     /* border: 5px solid rgb(82, 207, 89); */
     margin: 10px;
   }
-  .main-menu-mini{
+    .main-menu-mini{
         display: flex;
     }
+  
     .navbar .navlink{
         display: block;
-        
     }
+  
     .navlink li{
       display: block;
       border: 2px solid tomato;
@@ -556,7 +559,7 @@ li a:hover{
         background-color: transparent;
         backdrop-filter: blur(4px);
         width: 100%;
-        
+        height: 30rem;
     }
   .front-ifo{
     display: flex;
