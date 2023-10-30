@@ -117,15 +117,12 @@ ul li{
 .navlink li a {
     color: #000;
     /* font-size: 14px; */
-    transition:0.5s ;
 
 }
 .navbar li a:hover{
-      border: 2px solid green;
-      border-radius: 10px;
       color: #000;
       background-color: azure;
-      transition: 0.5s;
+      transition: margin-right 5px 0.5s;
 }
 section {
   height: auto;
