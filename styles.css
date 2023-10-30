@@ -120,9 +120,9 @@ ul li{
 
 }
 .navbar li a:hover{
-      color: #000;
-      background-color: azure;
-      transition: margin-right 5px 0.5s;
+      color: azure;
+      background-color: #000;
+      transition: border-bottom 2px 1s ;
 }
 section {
   height: auto;
