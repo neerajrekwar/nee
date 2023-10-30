@@ -113,17 +113,16 @@ ul li{
 
 .navlink li{
       display: flex;
+      margin: 10px;
     }
 
 .navlink li a {
-    padding:10px;
     color: #000;
     /* font-size: 14px; */
     transition:0.5s ;
 
 }
 .navbar li a:hover{
-      padding: 10px;
       border: 2px solid green;
       border-radius: 10px;
       color: #000;
