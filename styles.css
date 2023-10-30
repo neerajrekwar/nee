@@ -76,7 +76,7 @@ button {
     transition: translate 1s, rotate 1s; 
 }
 .button-three[aria-expanded="true"] .hamburger{
-    translate: 0px 10px;
+    translate: 0px 0px;
 }
 .button-three .line{
     transition: 1s;
