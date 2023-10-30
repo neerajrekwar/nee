@@ -76,7 +76,7 @@ button {
     transition: translate 1s, rotate 1s; 
 }
 .button-three[aria-expanded="true"] .hamburger{
-    translate: 0px 0px;
+    translate: 0px 10px;
 }
 .button-three .line{
     transition: 1s;
@@ -89,7 +89,6 @@ button {
 
 .nav-box{
     display: flex;
-    border: 2px solid;
     justify-content: space-between;
     align-items: baseline;
 }
@@ -108,7 +107,6 @@ ul li{
 }
 .navlink {
   display: flex;
-  border: 2px solid  yellowgreen; 
 }
 
 .navlink li{
