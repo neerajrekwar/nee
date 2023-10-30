@@ -524,13 +524,21 @@ li a:hover{
   
     .navlink li{
       display: block;
-      border: 2px solid tomato;
     }
+  .navlink li a:hover{
+    margin:0;
+    padding:0;
+    top: 2px;
+    right: 10px;
+    transition: all .5s ease;
+    background: #000;
+    color: #fff;
+  }
     .navbar{
         display: none;
     }
     .navbar.active{
-        display: flex;
+        display: block;
         justify-content: center;
         align-item: center;
         flex-direction: column;
@@ -541,7 +549,7 @@ li a:hover{
         border: 2px solid #000;
         background-color: transparent;
         backdrop-filter: blur(4px);
-        width: 50%;
+        width: 100%;
     }
   .front-ifo{
     display: flex;
