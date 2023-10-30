@@ -116,13 +116,11 @@ ul li{
 
 .navlink li a {
     color: #000;
-    /* font-size: 14px; */
-
+    transition: 0.5s;
 }
 .navbar li a:hover{
       color: azure;
       background-color: #000;
-      transition: margin-right 5px .5s ;
 }
 section {
   height: auto;
