@@ -122,7 +122,7 @@ ul li{
 .navbar li a:hover{
       color: azure;
       background-color: #000;
-      transition: border-bottom 2px 1s ;
+      transition: margin-left 25px .5s ;
 }
 section {
   height: auto;
