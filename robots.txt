@@ -5,4 +5,4 @@ User-agent: *
 Disallow: /search
 Allow: /
 
-Sitemap: https://neerajrekwar.github.io/sitemap.xml
+Sitemap: https://websequence.pages.dev/sitemap.xml
